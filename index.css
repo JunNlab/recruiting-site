@@ -1,0 +1,432 @@
+  *{
+    box-sizing:border-box;  
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  }
+.clear{
+  clear:left;
+}
+header{
+    width: 100%;
+    background-color: rgba(30, 50, 70, 0.9);
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+  header a{
+    color:#000;
+    text-decoration: none;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    max-width: none;
+  }
+  .logo{
+    display: block;
+  }
+  .logo img{
+    height: 60px;
+    vertical-align: bottom;
+  }
+  .logo img:hover{
+    background-color: rgba(30, 50, 70, 1);
+    
+  }
+  .area_nav_header{
+    margin-left: auto;
+    display: block;
+  }
+  .list_nav_header{
+    display: flex;
+  }
+  .area_nav_header ul li{
+    display: block;
+  }
+  .menu{
+    padding: 18px;
+    color: #fff;
+  }
+  .menu:hover{
+    background-color: rgba(30, 50, 70, 1);
+  }
+  .list_nav_header > li + li{
+    margin-left: 40px;
+  }
+  .sub_menu{
+    position: absolute;
+    background-color: rgba(30, 50, 70, 0.9);
+    margin-top: 18px;
+    display: none;
+  }
+  .sub_menu ul li{
+    line-height: 50px;
+    display: block;
+  }
+  .area_nav_header ul li:hover .sub_menu{
+    display: block;
+  }
+  .sub_menu a{
+    padding: 0 18px;
+    color: #fff;
+  }
+  .sub_menu ul li:hover{
+    background-color: rgba(30, 50, 70, 1);
+  }
+  .sub_menu_members{
+    width: 115px;
+  }
+  .sub_menu_activities{
+    width: 128px;
+  }
+  .toggle-wrapper{
+    margin-left: auto;
+    padding: 18px;
+    display: none;
+  }
+  .toggle-wrapper:hover{
+    background-color: rgba(30, 50, 70, 1);
+  }
+  .toggle{
+    height: 5px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-bottom: 5px;
+  }
+  .global_nav{
+    display: none;
+  }
+  .global_nav ul li{
+    text-align: center;
+    line-height: 50px;
+  }
+  .global_nav ul li:hover{
+    background-color: rgba(30, 50, 70, 1);
+  }
+  .global_nav a{
+    color: #fff;
+  }
+.top-wrapper {
+    height: 610px;
+    background-image: url("img/hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color:white;
+  }
+.top-wrapper h1 {
+    line-height: 60px;
+    padding-top: 150px;
+    font-size: 50px;
+    letter-spacing: 10px;
+  }
+.intro h1{
+    padding-top: 50px;
+    font-size: 40px;
+}
+.aboutus{
+    margin-top: 40px;
+}
+.aboutus-wrapper{
+    padding: 40px 0;
+    background-color: rgb(243, 243, 243);
+}
+.aboutus-contents{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.contents{
+    background-color: white;
+    width: 600px;
+    padding: 10px 10px 0 10px;
+    border: solid 3px;
+    border-radius: 10px;
+    height: 475px;
+}
+.aboutus-wrapper h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.aboutus-wrapper h2{
+    text-align: center;
+    font-size: 25px;
+}
+.aboutus-wrapper p{
+    line-height: 30px;
+    font-size: 19px;
+    padding: 10px;
+}
+.instagram-wrapper{
+  margin: 0 30px;
+}
+.line{
+    border-top: 3px solid black;
+    width:300px;
+    margin: 50px auto 0 auto;
+  }
+.message-wrapper{
+    background-color: rgb(243, 243, 243);
+    padding-bottom: 20px;
+}
+.messages h2{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.messages img{
+  width: 200px;
+}
+.message-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yuzuki-wrapper{
+    width: 650px;
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.yuzuki-img{
+    text-align: center;
+}
+.yuzuki-img h3{
+    text-align: center;
+}
+.yuzuki-message p{
+    padding-left: 20px;
+}
+.shinyu-wrapper{
+    width: 650px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.shinyu-img{
+    text-align: center;
+}
+.shinyu-img h3{
+    text-align: center;
+}
+.shinyu-message p{
+    padding-right: 20px;
+}
+.eki-wrapper{
+    width: 650px;
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.eki-img{
+    text-align: center;
+}
+.eki-img h3{
+    text-align: center;
+}
+.eki-message p{
+    padding-left: 20px;
+}
+.kurokawa-wrapper{
+    width: 650px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.kurokawa-img{
+    text-align: center;
+}
+.kurokawa-img h3{
+    text-align: center;
+}
+.kurokawa-message p{
+    padding-right: 20px;
+}
+footer{
+    background-color:rgb(30, 50, 70);
+    color: white;
+    width: 100%;
+}
+.content{
+    float: left;
+    margin: 40px 50px 0 50px;
+}
+.sns a{
+    font-size: 50px;
+}
+.instagram{
+    color: #D93177;
+    margin-right: 25px;
+}
+.twitter {
+    color: #55acee;
+}
+.website-links li{
+    list-style:none;
+    margin: 10px 0;
+}
+.website-links a{
+    color: white;
+}
+.footer-bottom{
+    padding: 20px 0;
+}
+.copyright-text{
+    margin-left: 20px;
+    opacity: 0.5;
+    font-style: italic;
+}
+@media screen and (max-width: 960px){
+    .contents{
+      height: 400px;
+    }
+    .aboutus-wrapper h2{
+        font-size: 22px;
+    }
+    .aboutus-wrapper p{
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .aboutus-contents{
+      flex-direction: column;
+      align-items: center;
+    }
+    .instagram-wrapper{
+      margin: 20px 0;
+    }
+}
+@media (max-width: 740px){
+    .area_nav_header{
+      display: none;
+    }
+    .ac_menu{
+      display: none;
+    }
+    .toggle-wrapper{
+      display: block;
+    }
+    .global_nav{
+      display: block;
+    }
+    .yuzuki-wrapper{
+        width: 95%;
+    }
+    .shinyu-wrapper{
+        width: 95%;
+    }
+    .eki-wrapper{
+        width: 95%;
+    }
+    .kurokawa-wrapper{
+        width: 95%;
+    }
+    .messages p{
+      font-size: 13px;
+    }
+    .messages h3{
+      font-size: 13px;
+    }
+}
+@media (max-width: 670px){
+    .top-wrapper{
+        height: 510px;
+    }
+    .top-wrapper h1{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .intro h1{
+        padding-top: 30px;
+        font-size: 18px;
+    }
+    .contents{
+        width: 95%;
+        height: 500px;
+    }
+    .content{
+        margin-left: 20px;
+    }
+    .contact iframe{
+        width: 330px;
+    }
+}
+@media screen and (max-width: 470px){
+    .intro h1{
+      font-size: 13px;
+    }
+    .website-links li{
+        font-size: 13px;
+    }
+    .contact p{
+      font-size: 13px;
+    }
+    .contact iframe{
+        width: 100%;
+    }
+    .aboutus-wrapper h1 {
+        font-size: 30px;
+    }
+    .aboutus-wrapper h2{
+        font-size: 18px;
+    }
+    .aboutus-wrapper p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .line{
+        width: 50%;
+    }
+    .yuzuki-wrapper{
+      flex-direction: column;
+    }
+    .shinyu-wrapper{
+      flex-direction: column;
+    }
+    .eki-wrapper{
+      flex-direction: column;
+    }
+    .kurokawa-wrapper{
+      flex-direction: column;
+    }
+    .sakai-wrapper{
+      flex-direction: column;
+    }
+    .yuzuki-message p{
+      padding-left: 0;
+    }
+    .shinyu-message p{
+      padding-right: 0;
+    }
+    .eki-message p{
+      padding-left: 0;
+    }
+    .kurokawa-message p{
+      padding-right: 0;
+    }
+}
+
