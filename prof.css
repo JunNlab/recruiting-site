@@ -1,0 +1,537 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  }
+  
+  .clear {
+    padding-top: 40px;
+    clear: left;
+  }
+  header{
+    width: 100%;
+    background-color: rgba(30, 50, 70, 0.9);
+    position:fixed;
+    top:0;
+    z-index:10;
+  }
+  header a{
+    color:#000;
+    text-decoration: none;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    max-width: none;
+  }
+  .logo{
+    display: block;
+  }
+  .logo img{
+    height: 60px;
+    vertical-align: bottom;
+  }
+  .logo img:hover{
+    background-color: rgba(30, 50, 70, 1);
+    
+  }
+  .area_nav_header{
+    margin-left: auto;
+    display: block;
+  }
+  .list_nav_header{
+    display: flex;
+  }
+  .area_nav_header ul li{
+    display: block;
+  }
+  .menu{
+    padding: 18px;
+    color: #fff;
+  }
+  .menu:hover{
+    background-color: rgba(30, 50, 70, 1);
+  }
+  .list_nav_header > li + li{
+    margin-left: 40px;
+  }
+  .sub_menu{
+    position: absolute;
+    background-color: rgba(30, 50, 70, 0.9);
+    margin-top: 18px;
+    display: none;
+  }
+  .sub_menu ul li{
+    line-height: 50px;
+    display: block;
+  }
+  .area_nav_header ul li:hover .sub_menu{
+    display: block;
+  }
+  .sub_menu a{
+    padding: 0 18px;
+    color: #fff;
+  }
+  .sub_menu ul li:hover{
+    background-color: rgba(30, 50, 70, 1);
+  }
+  .sub_menu_members{
+    width: 115px;
+  }
+  .sub_menu_activities{
+    width: 128px;
+  }
+  .toggle-wrapper{
+    margin-left: auto;
+    padding: 18px;
+    display: none;
+  }
+  .toggle-wrapper:hover{
+    background-color: rgba(30, 50, 70, 1);
+  }
+  .toggle{
+    height: 5px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-bottom: 5px;
+  }
+  .global_nav{
+    display: none;
+  }
+  .global_nav ul li{
+    text-align: center;
+    line-height: 50px;
+  }
+  .global_nav ul li:hover{
+    background-color: rgba(30, 50, 70, 1);
+  }
+  .global_nav a{
+    color: #fff;
+  }
+/* Main */
+main {
+    width: 100%;
+}
+
+.bc-gray {
+    background: rgb(243, 243, 243);
+}
+
+.shadow {
+    box-shadow: 0 2px 5px -2px rgb(0 0 0 / 15%);
+}
+
+.contents {
+    margin-top: 60px;
+}
+
+.title {
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+.inner-basic {
+    padding: 3.5em 0;
+}
+
+.rsm-wrap {
+    max-width: 900px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.page-paper {
+    background: #fff;
+    padding: 2.8em 2.8em 2em 2.8em;
+    margin-bottom: 3.5em;
+}
+
+.profile_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rsm-wrap dl dt {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.rsm-wrap dl dt img {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.rsm-wrap dl dd {
+    width: 100%;
+    position: relative;
+}
+
+
+.rsm-wrap dl dd .name {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rsm-wrap dl dd .name::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #000;
+    top: 80px;
+}
+
+.name .jp {
+    font-size: 2rem;
+}
+
+.name .en {
+    font-size: 1.8rem;
+    color: rgba(58,60,72,0.45);
+}
+
+.belongs .jp {
+    font-size: 1.2rem;
+}
+
+
+/* 経歴 */
+.sub_title {
+    font-size: 2.0em;
+    letter-spacing: 0.5px;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.experience {
+    margin: 1em 0 5em;
+    padding: 0.5em 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.exp-line {
+    position: absolute;
+    left: 9px;
+    top: -1em;
+    background-color: #8EB8FF;
+    width: 3px;
+    height: calc(100% + 1em);
+}
+
+.exp-line::before, .exp-line::after {
+    position: absolute;
+    content: "";
+    width: 11px;
+    height: 11px;
+    border-radius: 25%;
+    background: #005FFF;
+    display: block;
+    top: 100%;
+    left: -4px;
+}
+
+.exp-line::before {
+    left: -10px;
+    top: 0;
+    width: 23px;
+    height: 23px;
+}
+
+.exp-wrapper {
+    width: calc(100% - 45px);
+    margin: 1.1em 0 1.1em auto;
+}
+
+.exp-wrapper .exp-card {
+    padding: 1em 1.5em;
+    background: rgba(47, 79, 79, 0.1);
+    border-radius: 4px;
+    position: relative;
+}
+
+.exp-wrapper .exp-card::before {
+    position: absolute;
+    top: 45px;
+    content: "";
+    display: block;
+    height: 3px;
+    background: #8EB8FF;
+    width: 25px;
+    right: auto;
+    left: -34px ;
+}
+
+.exp-year {
+    font-weight: 500;
+    font-size: 0.87em;
+    color: #005FFF;
+}
+
+.exp-place {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0.2em 0;
+}
+
+
+/*研究業績*/
+.paper_list li {
+    background-color: rgba(47, 79, 79, 0.1);
+    border-radius: 10px;
+    margin-bottom: 4vw;
+    overflow: hidden;
+    box-shadow: 0 4px 8px -2px rgb(0 0 0 / 20%);
+}
+
+.paper_list li:hover {
+    box-shadow: 0 4px 16px -2px rgb(0 0 0 / 40%);
+}
+
+.paper_card {
+    padding: 4%;
+    position: relative;
+
+}
+
+.paper_card a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.paper_list li .paper_card .paper_title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.paper_list li .paper_card .paper_sub {
+    line-height: 1.5;
+    font-size: 1.0em;
+}
+
+.paper_list li .paper_card .paper_year {
+    text-align: right;
+}
+
+.button {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.paper_button {
+    display: inline-block;
+    background-color: rgb(30, 50, 70, 0.9);
+    color: #fff;
+    font-size: 1em;
+    line-height: 1;
+    letter-spacing: .05em;
+    border-radius: 3px;
+    padding: 12px 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px -2px rgb(0 0 0 / 20%);
+    text-decoration: none;
+}
+
+.paper_button:hover {
+    box-shadow: 0 4px 16px -2px rgb(0 0 0 / 40%);
+}
+
+/*Q&A*/
+.accordion {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.accordion-item {
+    background-color: rgba(47, 79, 79, 0.1);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px -2px rgb(0 0 0 / 20%);
+}
+
+.accordion-item:nth-child(even) {
+    margin: 2rem 0;
+}
+
+
+.accordion-item:hover {
+    box-shadow: 0 4px 16px -2px rgb(0 0 0 / 40%);
+}
+
+.accordion-item-header {
+    font-size: 1.2rem;
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+}
+
+.accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.accordion-item-header.active::after {
+    content: "\2212";
+}
+
+.accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.2s ease-out;
+}
+
+.accordion-item-body-content {
+    padding: 1rem;
+    border-top: 1px solid;
+}
+
+/* .accordion-item-header.active + .accordion-item-body {
+    max-height: 500px;
+} */
+
+/* footer */
+footer {
+    width: 100%;
+    color: #fff;
+    background-color: rgb(30, 50, 70);
+}
+
+.content {
+    float: left;
+    margin: 40px 50px 0 50px;
+}
+.sns a {
+    font-size: 50px;
+}
+.instagram {
+    color: #D93177;
+    margin-right: 25px;
+}
+.twitter {
+    color: #55acee;
+}
+.website-links li {
+    list-style:none;
+    margin: 10px 0;
+}
+.website-links a {
+    color: white;
+}
+.footer-bottom {
+    padding: 20px 0;
+}
+.copyright-text {
+    margin-left: 20px;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+@media (max-width: 740px){
+    .area_nav_header{
+      display: none;
+    }
+    .ac_menu{
+      display: none;
+    }
+    .toggle-wrapper{
+      display: block;
+    }
+    .global_nav{
+      display: block;
+    }
+}
+@media (max-width: 670px){
+    .content{
+        margin-left: 20px;
+    }
+    .contact iframe{
+        width: 330px;
+    }
+    .rsm-wrap {
+        padding: 0 10px;
+    }
+    
+    .page-paper {
+        padding: 2.8em 1em 1em 1em;
+    }
+    
+    .title {
+        font-size: 1.8rem;
+    }
+    
+    .belongs .jp {
+        font-size: 1.0rem;
+    }
+    
+    .name .jp {
+        font-size: 1.5rem;
+    }
+    
+    .name .en {
+        font-size: 1.2rem;
+    }
+    
+    .rsm-wrap dl dd .name::after {
+        top: 60px;
+    }
+    
+    .exp-place {
+        font-size: 1.0em;
+    }
+    
+    .papers .sub_title {
+        font-size: 1.6em;
+    }
+    
+    .paper_list li {
+        margin-bottom: 10vw;
+    }
+    
+    .paper_list li .paper_card {
+        padding: 6%;
+    }
+    
+    .paper_list li .paper_card .paper_title {
+        font-size: 1.0em;
+        margin-bottom: 6px;
+    }
+    
+    .paper_list li .paper_card .paper_sub {
+        font-size: 0.8em;
+    }
+    
+    .paper_button {
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 470px){
+    .website-links li{
+       font-size: 13px;
+    }
+    .contact p{
+       font-size: 13px;
+    }
+    .contact iframe{
+        width: 100%;
+    }
+  }
