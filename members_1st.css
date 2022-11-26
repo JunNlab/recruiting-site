@@ -1,0 +1,1213 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.clear {
+  padding-top: 40px;
+  clear: left;
+}
+header{
+  width: 100%;
+  background-color: rgba(30, 50, 70, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+header a{
+  color:#000;
+  text-decoration: none;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  max-width: none;
+}
+.logo{
+  display: block;
+}
+.logo img{
+  height: 60px;
+  vertical-align: bottom;
+}
+.logo img:hover{
+  background-color: rgba(30, 50, 70, 1);
+  
+}
+.area_nav_header{
+  margin-left: auto;
+  display: block;
+}
+.list_nav_header{
+  display: flex;
+}
+.area_nav_header ul li{
+  display: block;
+}
+.menu{
+  padding: 18px;
+  color: #fff;
+}
+.menu:hover{
+  background-color: rgba(30, 50, 70, 1);
+}
+.list_nav_header > li + li{
+  margin-left: 40px;
+}
+.sub_menu{
+  position: absolute;
+  background-color: rgba(30, 50, 70, 0.9);
+  margin-top: 18px;
+  display: none;
+}
+.sub_menu ul li{
+  line-height: 50px;
+  display: block;
+}
+.area_nav_header ul li:hover .sub_menu{
+  display: block;
+}
+.sub_menu a{
+  padding: 0 18px;
+  color: #fff;
+}
+.sub_menu ul li:hover{
+  background-color: rgba(30, 50, 70, 1);
+}
+.sub_menu_members{
+  width: 115px;
+}
+.sub_menu_activities{
+  width: 128px;
+}
+.toggle-wrapper{
+  margin-left: auto;
+  padding: 18px;
+  display: none;
+}
+.toggle-wrapper:hover{
+  background-color: rgba(30, 50, 70, 1);
+}
+.toggle{
+  height: 5px;
+  width: 35px;
+  background-color: #fff;
+  border-radius: 25px;
+  margin-bottom: 5px;
+}
+.global_nav{
+  display: none;
+}
+.global_nav ul li{
+  text-align: center;
+  line-height: 50px;
+}
+.global_nav ul li:hover{
+  background-color: rgba(30, 50, 70, 1);
+}
+.global_nav a{
+  color: #fff;
+}
+
+
+
+.main {
+  background-color: rgb(243, 243, 243);
+}
+
+.members-title {
+  padding-top: 110px;
+  background-size: cover;
+  justify-content: center;
+}
+
+.members-title h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.picture {
+  max-width: 1050px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.allmembers {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/*集合写真ここまで*/
+
+.member-number {
+  padding-left: 8%;
+  margin-bottom: 2%;
+}
+
+.number {
+  color: rgb(100, 94, 94);
+}
+
+.member-number h3 {
+  position: relative;
+  display: inline-block;
+  padding: 0 18px;
+}
+
+.member-number h3:before, .member-number h3:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 13px;
+  height: 0.7px;
+  background-color: rgb(44, 41, 41);
+}
+
+.member-number h3:before {
+  left:0;
+}
+
+.member-number h3:after {
+  right:0;
+}
+
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+  
+.card {
+  width: 27%;
+  height: 417px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  border-left: solid 7px #3b3934;
+}
+
+.card:nth-child(2n + 1) {
+  margin-right: 23px;
+  margin-left: 23px;
+}
+
+.card:nth-child(-n+28) {
+  background-color: rgb(247, 245, 245);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.card:nth-child(29) {
+  border: white;
+  background-color: rgb(243, 243, 243);
+}
+
+.card:nth-child(30) {
+  border: white;
+  background-color: rgb(243, 243, 243);
+}
+
+
+
+.card-image {
+  display: flex;
+  align-items: flex-end;
+}
+
+
+
+.card img {
+  width:124px;
+  height:124px;
+  margin-left: 45px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.card-name {
+  margin-left: 35px;
+  margin-bottom: 10px;
+  font-size: 21px;
+  color: rgb(82, 80, 80); 
+} 
+
+.hina-name {
+  margin-left: 35px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: rgb(82, 80, 80); 
+}
+
+.card-text {
+  padding: 10px;
+  height: 40%;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 16px;
+  color: rgb(100, 94, 94);
+}
+
+.card-body hr {
+  border-top: 2px dotted #bbb;
+}
+
+h4 {
+  position: relative;
+  display: inline-block;
+  padding: 0 18px;
+}
+
+h4:before, h4:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 13px;
+  height: 0.7px;
+  background-color: rgb(44, 41, 41);
+}
+
+h4:before {
+  left:0;
+}
+h4:after {
+  right: 0;
+}
+
+footer{
+  background-color:rgb(30, 50, 70);
+  color: white;
+  position: absolute;
+  width: 100%;
+}
+.content{
+  float: left;
+  margin: 40px 50px 0 50px;
+}
+.sns a{
+  font-size: 50px;
+}
+.instagram{
+  color: #D93177;
+  margin-right: 25px;
+}
+.twitter {
+  color: #55acee;
+}
+.website-links li{
+  list-style:none;
+  margin: 10px 0;
+}
+.website-links a{
+  color: white;
+}
+.footer-bottom{
+  padding: 20px 0;
+}
+.copyright-text{
+  margin-left: 20px;
+  opacity: 0.5;
+  font-style: italic;
+}
+
+@media screen and (max-width: 1220px) {
+  .card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #004f80;
+  }
+  
+  .card {
+    width: 42%;
+    height: 417px;
+    margin-bottom: 20px;
+    display: inline-block; /* インラインブロック化 */
+    vertical-align: top; /* 上端を揃える */
+    border-left: solid 7px #3b3934;
+  }
+  
+  .card:nth-child(2n + 1) {
+    margin-right: 23px;
+    margin-left: 23px;
+  }
+  
+  .card:nth-child(-n+28) {
+    background-color: rgb(247, 245, 245);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  }
+  
+  .card:nth-child(29) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+  
+  .card:nth-child(30) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+  
+  
+  
+  .card-image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  
+  
+  .card img {
+    width:120px;
+    height:120px;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15%;
+  }
+  
+  .card-name {
+    margin-left: 35px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: rgb(82, 80, 80); 
+  } 
+  
+  .hina-name {
+    margin-left: 35px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(82, 80, 80); 
+  }
+  
+  .card-text {
+    padding: 10px;
+    height: 40%;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 15px;
+    color: rgb(100, 94, 94);
+  }
+  
+  .card-body hr {
+    border-top: 2px dotted #bbb;
+  }
+  
+  h4 {
+    position: relative;
+    display: inline-block;
+    padding: 0 18px;
+  }
+  
+  h4:before, h4:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 13px;
+    height: 0.7px;
+    background-color: rgb(44, 41, 41);
+  }
+  
+  h4:before {
+    left:0;
+  }
+  h4:after {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #004f80;
+  }
+  
+  .card {
+    width: 42%;
+    height: 417px;
+    margin-bottom: 20px;
+    display: inline-block; /* インラインブロック化 */
+    vertical-align: top; /* 上端を揃える */
+    border-left: solid 7px #3b3934;
+  }
+  
+  .card:nth-child(2n+1) {
+    margin-right: 23px;
+    margin-left: 0px;
+  }
+  
+  .card:nth-child(-n+28) {
+    background-color: rgb(247, 245, 245);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  }
+  
+  .card:nth-child(29) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+  
+  .card:nth-child(30) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+  
+  
+  
+  .card-image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  
+  
+  .card img {
+    width:120px;
+    height:120px;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15%;
+  }
+  
+  .card-name {
+    margin-left: 35px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: rgb(82, 80, 80); 
+  } 
+  
+  .hina-name {
+    margin-left: 35px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(82, 80, 80); 
+  }
+  
+  .card-text {
+    padding: 10px;
+    height: 40%;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 15px;
+    color: rgb(100, 94, 94);
+  }
+  
+  .card-body hr {
+    border-top: 2px dotted #bbb;
+  }
+  
+  h4 {
+    position: relative;
+    display: inline-block;
+    padding: 0 18px;
+  }
+  
+  h4:before, h4:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 13px;
+    height: 0.7px;
+    background-color: rgb(44, 41, 41);
+  }
+  
+  h4:before {
+    left:0;
+  }
+  h4:after {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #004f80;
+  }
+  
+  .card {
+    width: 42%;
+    height: 417px;
+    margin-bottom: 20px;
+    display: inline-block; /* インラインブロック化 */
+    vertical-align: top; /* 上端を揃える */
+    border-left: solid 7px #3b3934;
+  }
+  
+  .card:nth-child(2n + 1) {
+    margin-right: 23px;
+    margin-left: 0px;
+  }
+  
+  .card:nth-child(-n+28) {
+    background-color: rgb(247, 245, 245);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  }
+  
+  .card:nth-child(29) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+  
+  .card:nth-child(30) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+  
+  
+  
+  .card-image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  
+  
+  .card img {
+    width:100px;
+    height:100px;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15%;
+  }
+  
+  .card-name {
+    margin-left: 35px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: rgb(82, 80, 80); 
+  } 
+  
+  .hina-name {
+    margin-left: 35px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: rgb(82, 80, 80); 
+  }
+  
+  .card-text {
+    padding: 10px;
+    height: 40%;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 16px;
+    color: rgb(100, 94, 94);
+  }
+  
+  .card-body hr {
+    border-top: 2px dotted #bbb;
+  }
+  
+  h4 {
+    position: relative;
+    display: inline-block;
+    padding: 0 18px;
+  }
+  
+  h4:before, h4:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 13px;
+    height: 0.7px;
+    background-color: rgb(44, 41, 41);
+  }
+  
+  h4:before {
+    left:0;
+  }
+  h4:after {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #004f80;
+  }
+  
+  .card {
+    width: 42%;
+    height: 417px;
+    margin-bottom: 20px;
+    display: inline-block; /* インラインブロック化 */
+    vertical-align: top; /* 上端を揃える */
+    border-left: solid 7px #3b3934;
+  }
+  
+  .card:nth-child(2n + 1) {
+    margin-right: 23px;
+    margin-left: 0px;
+  }
+  
+  .card:nth-child(-n+28) {
+    background-color: rgb(247, 245, 245);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  }
+  
+  .card:nth-child(29) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+  
+  .card:nth-child(30) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+  
+  
+  
+  .card-image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  
+  
+  .card img {
+    width:80px;
+    height:80px;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15%;
+  }
+  
+  .card-name {
+    margin-left: 35px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(82, 80, 80); 
+  } 
+  
+  .hina-name {
+    margin-left: 35px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: rgb(82, 80, 80); 
+  }
+  
+  .card-text {
+    padding: 10px;
+    height: 40%;
+    margin-left: 12px;
+    margin-right: 12px;
+    font-size: 15px;
+    color: rgb(100, 94, 94);
+  }
+  
+  .card-body hr {
+    border-top: 2px dotted #bbb;
+  }
+  
+  h4 {
+    position: relative;
+    display: inline-block;
+    padding: 0 18px;
+  }
+  
+  h4:before, h4:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 13px;
+    height: 0.7px;
+    background-color: rgb(44, 41, 41);
+  }
+  
+  h4:before {
+    left:0;
+  }
+  h4:after {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .area_nav_header{
+    display: none;
+  }
+  .ac_menu{
+    display: none;
+  }
+  .toggle-wrapper{
+    display: block;
+  }
+  .global_nav{
+    display: block;
+  }
+  .card {
+    width: 95%;
+    height: 120%;
+    border-left: solid 7px #3b3934;
+  }
+  
+  .card:nth-child(2n + 1) {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .card-body {
+    display: flex;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+  
+  .card:nth-child(-n+28) {
+    background-color: rgb(247, 245, 245);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  }
+  
+  
+  .card:nth-child(29) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+  
+  .card:nth-child(30) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+   
+  .card-image {
+    flex-direction: column-reverse;
+    padding-right: 25px;
+  }
+  
+  
+  
+  .card img {
+    width:150px;
+    height:150px;
+    margin: auto;
+  }
+  
+  .card-name {
+    margin: auto;
+    margin-top: 18px;
+    font-size: 23px;
+    color: rgb(82, 80, 80); 
+  }
+  
+  
+  .hina-name {
+    margin: auto;
+    margin-top: 18px;
+    font-size: 20px;
+    color: rgb(82, 80, 80); 
+  }
+  
+  .card-text {
+    margin-left: 30px;
+    font-size: 15px;
+    color: rgb(100, 94, 94);
+  }
+  
+  .card-body hr {
+    border-top: 2px dotted #bbb;
+  }
+  
+  h4 {
+    position: relative;
+    display: inline-block;
+    padding: 0 18px;
+  }
+  
+  h4:before, h4:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 13px;
+    height: 0.7px;
+    background-color: rgb(44, 41, 41);
+  }
+  
+  h4:before {
+    left:0;
+  }
+  h4:after {
+    right: 0;
+  }
+}
+
+@media (max-width: 670px){
+  .content{
+      margin-left: 20px;
+  }
+  .contact iframe{
+      width: 330px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .member-number {
+    padding-left: 7%;
+    margin-bottom: 2%;
+  }
+  
+  .card {
+    width: 95%;
+    /*height: 100%;*/
+    border-left: solid 7px #3b3934;
+  }
+  
+  .card:nth-child(2n + 1) {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .card-body {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+  
+  .card:nth-child(-n+28) {
+    background-color: rgb(247, 245, 245);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  }
+  
+  .card:nth-child(29) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+  
+  .card:nth-child(30) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+   
+  .card-body {
+    padding: 2px;
+
+  }
+
+  .card-image {
+    flex-direction: column-reverse;
+    padding-right: 25px;
+  }
+  
+  
+  
+  .card img {
+    width:120px;
+    height:120px;
+    margin-right: 2px;
+    margin-left: 2px;
+    margin-bottom: 0px;
+  }
+  
+  .card-name {
+    margin: auto;
+    margin-top: 10px;
+    margin-top: 14px;
+    font-size: 20px;
+    color: rgb(82, 80, 80); 
+  }
+  
+  
+  .hina-name {
+    margin: auto;
+    margin-top: 14px;
+    font-size: 20px;
+    color: rgb(82, 80, 80); 
+  }
+  
+  .card-text {
+    margin-left: 30px;
+    margin-top: 3px;
+    margin-top: 4px;
+    font-size: 13px;
+    color: rgb(100, 94, 94);
+  }
+  
+  .card-body hr {
+    border-top: 2px dotted #bbb;
+  }
+  
+  h4 {
+    position: relative;
+    display: inline-block;
+    padding: 0 18px;
+  }
+  
+  h4:before, h4:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 13px;
+    height: 0.7px;
+    background-color: rgb(44, 41, 41);
+  }
+  
+  h4:before {
+    left:0;
+  }
+  h4:after {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .members-title h1 {
+    font-size: 30px;
+  }
+  .member-number {
+    padding-left: 7%;
+    margin-bottom: 2%;
+  }
+
+  .card {
+    width: 95%;
+    /*height: 100%;*/
+    border-left: solid 7px #3b3934;
+  }
+  
+  .card:nth-child(2n + 1) {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .card-body {
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 12px;
+  }
+  
+  .card:nth-child(-n+28) {
+    background-color: rgb(247, 245, 245);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  }
+  
+  
+  .card:nth-child(29) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+  
+  .card:nth-child(30) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+   
+  .card-image {
+    flex-direction: column-reverse;
+    padding-right: 15px;
+  }
+  
+  .card-body {
+    margin-top: 2px;
+  }
+  
+  .card img {
+    width:90px;
+    height:90px;
+    margin: auto;
+    margin-bottom: 0px;
+  }
+  
+  .card-name {
+    margin: auto;
+    margin-top: 7px;
+    font-size: 16px;
+    color: rgb(82, 80, 80); 
+  }
+  
+  
+  .hina-name {
+    margin: auto;
+    margin-top: 7px;
+    font-size: 13px;
+    color: rgb(82, 80, 80); 
+  }
+  
+  .card-text {
+    margin-left: 15px;
+    font-size: 12px;
+    color: rgb(100, 94, 94);
+  }
+  
+  .card-body hr {
+    border-top: 2px dotted #bbb;
+  }
+  
+  h4 {
+    position: relative;
+    display: inline-block;
+    padding: 0 18px;
+  }
+  
+  h4:before, h4:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 13px;
+    height: 0.7px;
+    background-color: rgb(44, 41, 41);
+  }
+  
+  h4:before {
+    left:0;
+  }
+  h4:after {
+    right: 0;
+  }
+  .website-links li{
+    font-size: 13px;
+  }
+  .contact p{
+    font-size: 13px;
+  }
+  .contact iframe{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .member-number {
+    padding-left: 7%;
+    margin-bottom: 2%;
+  }
+
+  .card {
+    width: 95%;
+    /*height: 100%;*/
+    border-left: solid 7px #3b3934;
+  }
+  
+  .card:nth-child(2n + 1) {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .card-body {
+    display: flex;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+  
+  .card:nth-child(-n+28) {
+    background-color: rgb(247, 245, 245);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  }
+  
+  
+  .card:nth-child(29) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+  
+  .card:nth-child(30) {
+    border: white;
+    background-color: rgb(243, 243, 243);
+    display: none;
+  }
+   
+  .card-image {
+    flex-direction: column-reverse;
+    padding-right: 15px;
+  }
+  
+  
+  .card img {
+    width:90px;
+    height:90px;
+    margin: auto;
+    margin-bottom: 0px;
+  }
+  
+  .card-name {
+    margin: auto;
+    margin-top: 7px;
+    font-size: 16px;
+    color: rgb(82, 80, 80); 
+  }
+  
+  
+  .hina-name {
+    margin: auto;
+    margin-top: 7px;
+    font-size: 13px;
+    color: rgb(82, 80, 80); 
+  }
+  
+  .card-text {
+    margin-left: 15px;
+    font-size: 11px;
+    color: rgb(100, 94, 94);
+  }
+  
+  .card-body hr {
+    border-top: 2px dotted #bbb;
+  }
+  
+  h4 {
+    position: relative;
+    display: inline-block;
+    padding: 0 18px;
+  }
+  
+  h4:before, h4:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    width: 13px;
+    height: 0.7px;
+    background-color: rgb(44, 41, 41);
+  }
+  
+  h4:before {
+    left:0;
+  }
+  h4:after {
+    right: 0;
+  }
+}
