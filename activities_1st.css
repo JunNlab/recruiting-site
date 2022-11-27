@@ -1,0 +1,461 @@
+*{
+    box-sizing:border-box;  
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  }
+.clear{
+    clear: left;
+}
+header{
+    width: 100%;
+    background-color: rgba(30, 50, 70, 0.9);
+    position:fixed;
+    top:0;
+    z-index:10;
+}
+header a{
+    color:#000;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    max-width: none;
+  }
+  .logo{
+    display: block;
+  }
+  .logo img{
+    height: 60px;
+    vertical-align: bottom;
+  }
+  .logo img:hover{
+    background-color: rgba(30, 50, 70, 1);
+    
+  }
+  .area_nav_header{
+    margin-left: auto;
+    display: block;
+  }
+  .list_nav_header{
+    display: flex;
+  }
+  .area_nav_header ul li{
+    display: block;
+  }
+  .menu{
+    padding: 18px;
+    color: #fff;
+  }
+  .menu:hover{
+    background-color: rgba(30, 50, 70, 1);
+  }
+  .list_nav_header > li + li{
+    margin-left: 40px;
+  }
+  .sub_menu{
+    position: absolute;
+    background-color: rgba(30, 50, 70, 0.9);
+    margin-top: 18px;
+    display: none;
+  }
+  .sub_menu ul li{
+    line-height: 50px;
+    display: block;
+  }
+  .area_nav_header ul li:hover .sub_menu{
+    display: block;
+  }
+  .sub_menu a{
+    padding: 0 18px;
+    color: #fff;
+  }
+  .sub_menu ul li:hover{
+    background-color: rgba(30, 50, 70, 1);
+  }
+  .sub_menu_members{
+    width: 115px;
+  }
+  .sub_menu_activities{
+    width: 128px;
+  }
+  .toggle-wrapper{
+    margin-left: auto;
+    padding: 18px;
+    display: none;
+  }
+  .toggle-wrapper:hover{
+    background-color: rgba(30, 50, 70, 1);
+  }
+  .toggle{
+    height: 5px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-bottom: 5px;
+  }
+  .global_nav{
+    display: none;
+  }
+  .global_nav ul li{
+    text-align: center;
+    line-height: 50px;
+  }
+  .global_nav ul li:hover{
+    background-color: rgba(30, 50, 70, 1);
+  }
+  .global_nav a{
+    color: #fff;
+  }
+.activity-wrapper{
+    padding: 110px 0 25px 0;
+    background-size: cover;
+    background-color: rgb(243, 243, 243);
+}
+.activity-wrapper a{
+    text-decoration: none;
+    color: #000;
+}
+.activity-wrapper a:hover{
+    text-decoration: underline;
+}
+.activity-wrapper h1{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.seminar1{
+    background-color: white;
+    margin: 0 auto;
+    width: 900px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    height: 375px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.seminar1 h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.seminar1-contents{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.img-seminar1{
+    position: relative;
+    width: 400px;
+    margin: 0 20px 0 10px;
+}
+.img-seminar1 img {
+    width: 100%;
+    position: absolute;
+}
+.text-seminar1{
+    margin: 10px 10px 10px 20px;
+}
+.text-seminar1 p{
+    line-height: 25px;
+}
+.seminar2{
+    background-color: white;
+    margin: 0 auto;
+    width: 900px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    height: 375px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.seminar2 h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 25px 0 10px 0;
+    padding-top: 20px;
+}
+.seminar2-contents{
+    display: flex;
+    justify-content: center;
+}
+.img-seminar2{
+    position: relative;
+    width: 400px;
+    margin: 0 10px 0 20px;
+}
+.img-seminar2 img {
+    width: 100%;
+    position: absolute;
+}
+.text-seminar2{
+    margin: 10px 20px 10px 10px;
+}
+.text-seminar2 p{
+    line-height: 25px;
+}
+.seminar3{
+    background-color: white;
+    margin: 0 auto;
+    width: 900px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    height: 375px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.seminar3 h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 25px 0 10px 0;
+    padding-top: 20px;
+}
+.seminar3-contents{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.img-seminar3{
+    position: relative;
+    width: 400px;
+    margin: 0 20px 0 10px;
+}
+.img-seminar3 img {
+    width: 100%;
+    position: absolute;
+}
+.text-seminar3{
+    margin: 30px 10px 30px 20px;
+}
+.text-seminar3 p{
+    line-height: 25px;
+}
+.seminar4{
+  background-color: white;
+  margin: 0 auto;
+  width: 900px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  height: 375px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.seminar4 h2{
+  font-size: 30px;
+  text-align: center;
+  margin: 25px 0 10px 0;
+  padding-top: 20px;
+}
+.seminar4-contents{
+  display: flex;
+  justify-content: center;
+}
+.img-seminar4{
+  position: relative;
+  width: 400px;
+  margin: 0 10px 0 20px;
+}
+.img-seminar4 img {
+  width: 100%;
+  position: absolute;
+}
+.text-seminar4{
+  margin: 10px 20px 10px 10px;
+}
+.text-seminar4 p{
+  line-height: 25px;
+}
+footer{
+    background-color:rgb(30, 50, 70);
+    color: white;
+    position: absolute;
+    width: 100%;
+}
+.content{
+    float: left;
+    margin: 40px 50px 0 50px;
+}
+.sns a{
+    font-size: 50px;
+}
+.instagram{
+    color: #D93177;
+    margin-right: 25px;
+}
+.twitter {
+    color: #55acee;
+}
+.website-links li{
+    list-style:none;
+    margin: 10px 0;
+}
+.website-links a{
+    color: white;
+}
+.footer-bottom{
+    padding: 20px 0;
+}
+.copyright-text{
+    margin-left: 20px;
+    opacity: 0.5;
+    font-style: italic;
+}
+@media screen and (max-width: 960px){
+  .seminar1{
+    width: 450px;
+    height: 625px;
+  }
+  .seminar1-contents{
+    flex-direction: column;
+  }
+  .img-seminar1{
+    margin: 0 auto;
+  }
+  .text-seminar1{
+    margin-top: 275px;
+  }
+  .seminar2{
+    width: 450px;
+    height: 625px;
+  }
+  .seminar2-contents{
+    flex-direction: column;
+  }
+  .img-seminar2{
+    margin: 0 auto;
+  }
+  .text-seminar2{
+    margin: 275px 0 0 20px;
+  }
+  .seminar3{
+    width: 450px;
+    height: 625px;
+  }
+  .seminar3-contents{
+    flex-direction: column;
+  }
+  .img-seminar3{
+    margin: 0 auto;
+  }
+  .text-seminar3{
+    margin-top: 275px;
+  }
+  .seminar4{
+    width: 450px;
+    height: 625px;
+  }
+  .seminar4-contents{
+    flex-direction: column;
+  }
+  .img-seminar4{
+    margin: 0 auto;
+  }
+  .text-seminar4{
+    margin: 275px 0 0 20px;
+  }
+}
+@media (max-width: 740px){
+  .area_nav_header{
+    display: none;
+  }
+  .ac_menu{
+    display: none;
+  }
+  .toggle-wrapper{
+    display: block;
+  }
+  .global_nav{
+    display: block;
+  }
+}
+@media (max-width: 670px){
+  .content{
+      margin-left: 20px;
+  }
+  .contact iframe{
+      width: 330px;
+  }
+}
+@media screen and (max-width: 470px){
+  .activity-wrapper h1{
+    font-size: 30px;
+  }
+  .seminar1{
+    width: 350px;
+    height: 510px;
+  }
+  .seminar1 h2{
+    font-size: 25px;
+  }
+  .img-seminar1{
+    width: 300px;
+  }
+  .text-seminar1{
+    margin-top: 210px;
+  }
+  .text-seminar1 p{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .seminar2{
+    width: 350px;
+    height: 510px;
+  }
+  .seminar2 h2{
+    font-size: 25px;
+  }
+  .img-seminar2{
+    width: 300px;
+  }
+  .text-seminar2{
+    margin-top: 210px;
+  }
+  .text-seminar2 p{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .seminar3{
+    width: 350px;
+    height: 510px;
+  }
+  .seminar3 h2{
+    font-size: 25px;
+  }
+  .img-seminar3{
+    width: 300px;
+  }
+  .text-seminar3{
+    margin-top: 210px;
+  }
+  .text-seminar3 p{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .seminar4{
+    width: 350px;
+    height: 510px;
+  }
+  .seminar4 h2{
+    font-size: 25px;
+  }
+  .img-seminar4{
+    width: 300px;
+  }
+  .text-seminar4{
+    margin-top: 210px;
+  }
+  .text-seminar4 p{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .website-links li{
+    font-size: 13px;
+  }
+  .contact p{
+    font-size: 13px;
+  }
+  .contact iframe{
+    width: 100%;
+  }
+}
