@@ -90,7 +90,7 @@
 <div class="main" id="members_1st">
 
 <div class="members-title">
-    <h1>Members -1期生-</h1>
+    <h1>Members -3期生-</h1>
 </div>
 
 
@@ -102,7 +102,7 @@
  <!--メンバー紹介ここから-->
 
  <div class="member-number">
-   <h3 class="number">28 members</h3>
+   <h3 class="number">17 members</h3>
  </div>
 
   <div class="card-group">
@@ -111,19 +111,19 @@
       <!--div class="h1"></!--div-->
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">山下 陸人</h5>
-          <img src="img/image_1st/山下.jpeg"></img>
+          <h5 class="card-name">寺田有佑</h5>
+          <img src="img/image_1st/寺田.jpeg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>映画鑑賞</p>
+            <p>バレーボール、バスケ、ピアノ、ジャズ</p>
             <h4>研究テーマ</h4>
-            <p>アート思考の経営への応用</p>
+            <p>ショート動画におけるバズるツボについて</p>
             <h4>座右の銘</h4>
-            <p>点滴石を穿つ</p>
+            <p>誠実に丁寧に。</p>
             <h4>ひとこと</h4>
-            <p>おいしいご飯屋教えてください</p>
+            <p>ご飯は水分少なめ派です。</p>
         </div>
       </div>
     </div>
@@ -131,19 +131,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-         <h5 class="card-name">鈴木 海斗</h5>
+         <h5 class="card-name">河合信太朗</h5>
          <img src="img/image_1st/鈴木.jpeg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>映画鑑賞</p>
+            <p>推しのライブに行くこと（ももいろクローバーZ、超ときめき♡宣伝部）</p>
             <h4>研究テーマ</h4>
-            <p>理想のリーダー像</p>
+            <p>アイドル運営</p>
             <h4>座右の銘</h4>
-            <p>最小の努力で最大の結果</p>
+            <p>結果自然成</p>
             <h4>ひとこと</h4>
-            <p>海外いきたい</p>
+            <p>一緒にソフトクリーム巡りしましょう！</p>
         </div>
       </div>
     </div>
@@ -151,19 +151,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">田島 由唯</h5>
+          <h5 class="card-name">野尻さくら</h5>
           <img src="img/image_1st/田島.jpeg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>料理・映画鑑賞・旅行✌🏻</p>
+            <p>映画、ドラマ鑑賞</p>
             <h4>研究テーマ</h4>
-            <br>モンゴルに恐竜博物館を建設するためのリサーチ</p>
+            <br>ダイアナ化粧水のマーケティング戦略研究</p>
             <h4>座右の銘</h4>
-            <p>蒔かぬ種は生えぬ🌱</p>
+            <p>今を生きる</p>
             <h4>ひとこと</h4>
-            <p>爬虫類とユッケが好き🤍🦖</p>
+            <p>犬好きに悪い人はいないと信じています</p>
         </div>
       </div>
     </div>
@@ -171,19 +171,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">武藤 沙耶</h5>
+          <h5 class="card-name">石部来果</h5>
           <img src="img/image_1st/武藤.jpeg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>雑誌・本を読むこと、カメラ</p>
+            <p>ご飯屋めぐり</p>
             <h4>研究テーマ（暫定）</h4>
-            <p>情報収集におけるInstagramと雑誌の違いー雑誌の今後ー</p>
+            <p>婚約指輪と幸福度の関係性</p>
             <h4>座右の銘</h4>
-            <p>毎日毎日、違う自分になること。</p>
+            <p>予約必須</p>
             <h4>ひとこと</h4>
-            <p>ドローンを買って世界中の絶景を撮りたいです。</p>
+            <p>ごめん犬アレルギーです</p>
         </div>
       </div>
     </div>
@@ -191,19 +191,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">山本 晃世</h5>
+          <h5 class="card-name">根岸媛子</h5>
           <img src="img/image_1st/山本.jpeg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>バンド演奏</p>
+            <p>アニメ鑑賞</p>
             <h4>研究テーマ</h4>
-            <p>Twitterの両項目的及び機能の関係について</p>
+            <p>携帯電話と通信</p>
             <h4>座右の銘</h4>
-            <p>明日は明日の風が吹く</p>
+            <p>同じことをくりかえすくらいなら、死んでしまえ</p>
             <h4>ひとこと</h4>
-            <p>シャカタク、という響きが好きです</p>
+            <p>よろしくお願いします。</p>
         </div>
       </div>
     </div>
@@ -211,19 +211,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">井出 遥菜</h5>
+          <h5 class="card-name">波多野鈴夏</h5>
           <img src="img/image_1st/井出.jpeg"></img>
         </div>
         <hr>
         <div class="card-text">
               <h4>趣味</h4>
-              <p>旅行・韓ドラ鑑賞</p>
+              <p>美術館・博物館めぐり、映画鑑賞</p>
               <h4>研究テーマ</h4>
-              <p>日本と韓国のファッション雑誌から見るトレンド傾向の違い</p>
+              <p>見たものから受ける印象や感情の言語化方法</p>
               <h4>座右の銘</h4>
-              <p>人生楽しんだもん勝ち</p>
+              <p>人間は犬に食われるほど自由だ</p>
               <h4>ひとこと</h4>
-              <p>早く海外旅行に行きたいです。</p>
+              <p>アートは自分の心の中の嫌なものを取り除いて、創造力を養ってくれます。</p>
        </div>
       </div>
     </div>
@@ -231,19 +231,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">杵淵 ほの香</h5>
+          <h5 class="card-name">大嶽久玲愛</h5>
           <img src="img/image_1st/杵淵.jpeg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>ベースを弾くこと</p>
+            <p>ごはん、ダンス</p>
             <h4>研究テーマ</h4>
-            <p>パキスタンと生理用品-CAGEとPESTLE分析からのアプローチ-</p>
+            <p>食について</p>
             <h4>座右の銘</h4>
-            <p>一期一会</p>
+            <p>笑う門には福来る</p>
             <h4>ひとこと</h4>
-            <p>硬いプリン巡りがしたいです</p>
+            <p>どんなことも楽しめるようにがんばります！</p>
         </div>
       </div>
     </div>
@@ -251,19 +251,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">渡辺 涼介</h5>
+          <h5 class="card-name">小山真綸</h5>
           <img src="img/image_1st/渡辺.jpg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>音楽、スポーツ観戦、ドライブ</p>
+            <p>ダンス、ゲーム、音楽を聴く</p>
             <h4>研究テーマ</h4>
-            <p>完全自動運転車に関する研究</p>
+            <p>好きなことを続ける秘策</p>
             <h4>座右の銘</h4>
-            <p>全ては自分次第</p>
+            <p>為せば成る</p>
             <h4>ひとこと</h4>
-            <p>BUMP OF CHICKEN好きです</p>
+            <p>うさまるのスタンプたくさん持ってます</p>
         </div>
       </div>
     </div>
@@ -271,19 +271,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">中村 寿樹</h5>
+          <h5 class="card-name">村田漣太郎</h5>
           <img src="img/image_1st/中村.jpg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>音楽、ボードゲーム</p>
+            <p>サッカー</p>
             <h4>研究テーマ</h4>
-            <p>Twitter上で商品のレイティングをするモデルの検証</p>
+            <p>人の行動とその原因の因果関係を利用して最適解を求める　</p>
             <h4>座右の銘</h4>
-            <p>敬天愛人</p>
+            <p>楽しむ</p>
             <h4>ひとこと</h4>
-            <p>ジャンル問わず音楽大好きです。最近はLiaにハマってます</p>
+            <p>サッカーやりたい人いますか？</p>
         </div>
       </div>
     </div>
@@ -291,19 +291,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">今村 心祐</h5>
+          <h5 class="card-name">舟木拓優</h5>
           <img src="img/image_1st/今村.jpeg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>映画、ゲーム、観光</p>
+            <p>ギター・ピアノ・読書・自転車</p>
             <h4>研究テーマ</h4>
-            <p>経路計画アルゴリズム“DWA”の機械学習を用いたパラメータ自動調整機能</p>
+            <p>電車における片側ドアの導入案。</p>
             <h4>座右の銘</h4>
-            <p>死ぬこと以外はかすり傷</p>
+            <p>一石二鳥</p>
             <h4>ひとこと</h4>
-            <p>文系と理系を区別することは嫌い</p>
+            <p>僕は全然泳げません。</p>
         </div>
       </div>
     </div>
@@ -311,19 +311,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">愛川 真理</h5>
+          <h5 class="card-name">ファースサミュエル一輝</h5>
           <img src="img/image_1st/愛川.jpg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>読書、美術鑑賞、コーヒーを淹れること</p>
+            <p>美味しいものを食べること</p>
             <h4>研究テーマ</h4>
-            <p>アートが学生に与える影響についての調査</p>
+            <p>ミートパイが日本で普及しない理由について</p>
             <h4>座右の銘</h4>
-            <p>Fair is foul, and foul is fair.</p>
+            <p>無知を恥じず、無知に甘えるを恥じる</p>
             <h4>ひとこと</h4>
-            <p>最近シナモンロール作りにハマっています。</p>
+            <p>She’ll be right!</p>
         </div>
       </div>
     </div>
@@ -331,19 +331,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">横尾 匡洋</h5>
+          <h5 class="card-name">鴨田遥平</h5>
           <img src="img/image_1st/横尾.jpeg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>バイクツーリング,一眼で写真を撮る</p>
+            <p>ネットサーフィン</p>
             <h4>研究テーマ</h4>
-            <p>授業に対面で参加する人とオンラインで参加する人の境界線</p>
+            <p>時代に合ったSNS指導要領を作成する。</p>
             <h4>座右の銘</h4>
-            <p>The journey is the reward.</p>
+            <p>金持ちも貧乏も皆、土に還る</p>
             <h4>ひとこと</h4>
-            <p>仙台出身。バイクで東北一周しました。</p>
+            <p>初雪が降る前の冷たい香りが好きです。</p>
         </div>
       </div>
     </div>
@@ -351,19 +351,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="hina-name">トルツマン<br>ナンシー雛</h5>
+          <h5 class="hina-name">益本藏磨</h5>
           <img src="img/image_1st/トルツマン.jpeg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>ヨガ、絵を描くこと</p>
+            <p>音楽鑑賞</p>
             <h4>研究テーマ</h4>
-            <p>SNSによって変化する自身のボディーイメージ</p>
+            <p>オンライン観光の可能性〜地方再生への足掛け〜</p>
             <h4>座右の銘</h4>
-            <p>万事塞翁が馬</p>
+            <p>明日なんか来ると思わずに燃えよ</p>
             <h4>ひとこと</h4>
-            <p>ぜひ仲良くしてください！よろしくお願いします！</p>
+            <p>変化を受け入れて前に進みたいと思う🔥</p>
         </div>
       </div>
     </div>
@@ -371,19 +371,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">内藤 有香</h5>
+          <h5 class="card-name">佐藤碧衣</h5>
           <img src="img/image_1st/内藤.png"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>ラジオを聞くこと。特にANNが好き。</p>
+            <p>食べ歩き、旅行</p>
             <h4>研究テーマ</h4>
-            <p>アピールポイントを伝える宣伝用リールのための視線計測器を使用した実験</p>
+            <p>究極の一皿を求める、都心と郊外の融合化</p>
             <h4>座右の銘</h4>
-            <p>狭き門より入れ</p>
+            <p>努力した者が成功するとは限らない。しかし、成功した者は必ず努力している。</p>
             <h4>ひとこと</h4>
-            <p>日産に居座りたいくらい車が好きです！菊池風磨崇拝してます。</p>
+            <p>この研究室で皆さんから刺激をもらい、勉強を頑張りたいです。よろしくお願いします。</p>
         </div>
       </div>
     </div>
@@ -391,19 +391,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">杉本 大樹</h5>
+          <h5 class="card-name">伊藤剛</h5>
           <img src="img/image_1st/杉本.jpg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>ダーツ、ボードゲーム、インドカレー</p>
+            <p>アニメ、ゲーム、観光</p>
             <h4>研究テーマ</h4>
-            <p>バズ・炎上の分析　効果的なWebマーケティング</p>
+            <p>広告について</p>
             <h4>座右の銘</h4>
-            <p>人生は他の計画を立てているうちに過ぎる</p>
+            <p>十人十色</p>
             <h4>ひとこと</h4>
-            <p>大体、限界。</p>
+            <p>いろんな国行ってみたい</p>
         </div>
       </div>
     </div>
@@ -411,19 +411,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">小森 隆弘</h5>
+          <h5 class="card-name">大平萌々葉</h5>
           <img src="img/image_1st/小森.jpeg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>フィルム/映画•音楽/筋トレ 他</p>
+            <p>映画鑑賞、フットサル</p>
             <h4>研究テーマ</h4>
-            <p>TAMを用いたマナバの受容意向に関する研究</p>
+            <p>映画ジャンルのプリファレンスとコンセッションの購買意欲の相関</p>
             <h4>座右の銘</h4>
-            <p>トライアンドエラー</p>
+            <p>Any way the wind blows</p>
             <h4>ひとこと</h4>
-            <p>ブラックを飲める漢になりたい。</p>
+            <p>リチャードソンジリスを飼うのが夢です</p>
         </div>
       </div>
     </div>
@@ -431,19 +431,19 @@
     <div class="card">
       <div class="card-body">
         <div class="card-image">
-          <h5 class="card-name">黒澤 優月</h5>
+          <h5 class="card-name">鈴木乃子</h5>
           <img src="img/image_1st/黒澤.jpeg"></img>
         </div>
         <hr>
         <div class="card-text">
             <h4>趣味</h4>
-            <p>麻雀</p>
+            <p>おいしいご飯を食べること</p>
             <h4>研究テーマ</h4>
-            <p>麻雀に対するイメージ</p>
+            <p>商品陳列が購買意欲に与える影響</p>
             <h4>座右の銘</h4>
-            <p>無茶だけど無理じゃない</p>
+            <p>１を知っただけで１００を知った気にならない</p>
             <h4>ひとこと</h4>
-            <p>好きな役はリーチ🀄</p>
+            <p>岐阜県出身。まずは日本全国巡りたい</p>
         </div>
       </div>
     </div>
