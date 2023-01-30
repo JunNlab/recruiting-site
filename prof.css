@@ -113,13 +113,22 @@
   .global_nav a{
     color: #fff;
   }
+
+  .headline_color {
+    color: #094067;
+  }
+
+  p {
+    color: #094067;
+  }
+
 /* Main */
 main {
     width: 100%;
 }
 
 .bc-gray {
-    background: rgb(243, 243, 243);
+    background: #fffffe;
 }
 
 .shadow {
@@ -147,7 +156,7 @@ main {
 }
 
 .page-paper {
-    background: #fff;
+    background: #d8eefe;
     padding: 2.8em 2.8em 2em 2.8em;
     margin-bottom: 3.5em;
 }
@@ -257,7 +266,7 @@ main {
 
 .exp-wrapper .exp-card {
     padding: 1em 1.5em;
-    background: rgba(47, 79, 79, 0.1);
+    background: #fffffe;
     border-radius: 4px;
     position: relative;
 }
@@ -289,7 +298,7 @@ main {
 
 /*研究業績*/
 .paper_list li {
-    background-color: rgba(47, 79, 79, 0.1);
+    background-color: #fffffe;
     border-radius: 10px;
     margin-bottom: 4vw;
     overflow: hidden;
@@ -359,7 +368,7 @@ main {
 }
 
 .accordion-item {
-    background-color: rgba(47, 79, 79, 0.1);
+    background-color: #fffffe;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px -2px rgb(0 0 0 / 20%);
 }
