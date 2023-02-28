@@ -48,7 +48,7 @@ header{
     display: block;
   }
   .menu{
-    padding: 22px;
+    padding: 18px;
     color: #fff;
   }
   .menu:hover{
@@ -199,7 +199,7 @@ header{
     flex-direction: column;
     align-items: center;
 }
-.yuzuki-wrapper{
+.tajima-wrapper{
     width: 650px;
     display: flex;
     background-color: #fff;
@@ -209,13 +209,13 @@ header{
     margin-bottom: 20px;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
 }
-.yuzuki-img{
+.tajima-img{
     text-align: center;
 }
-.yuzuki-img h3{
+.tajima-img h3{
     text-align: center;
 }
-.yuzuki-message p{
+.tajima-message p{
     padding-left: 20px;
 }
 .shinyu-wrapper{
@@ -237,6 +237,45 @@ header{
 }
 .shinyu-message p{
     padding-right: 20px;
+}
+.yuzuki-wrapper{
+  width: 650px;
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.yuzuki-img{
+  text-align: center;
+}
+.yuzuki-img h3{
+  text-align: center;
+}
+.yuzuki-message p{
+  padding-left: 20px;
+}
+.sakai-wrapper{
+  width: 650px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.sakai-img{
+  text-align: center;
+}
+.sakai-img h3{
+  text-align: center;
+}
+.sakai-message p{
+  padding-right: 20px;
 }
 .eki-wrapper{
     width: 650px;
@@ -276,6 +315,45 @@ header{
 }
 .kurokawa-message p{
     padding-right: 20px;
+}
+.kamoda-wrapper{
+  width: 650px;
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.kamoda-img{
+  text-align: center;
+}
+.kamoda-img h3{
+  text-align: center;
+}
+.kamoda-message p{
+  padding-left: 20px;
+}
+.nojiri-wrapper{
+  width: 650px;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.nojiri-img{
+  text-align: center;
+}
+.nojiri-img h3{
+  text-align: center;
+}
+.nojiri-message p{
+  padding-right: 20px;
 }
 footer{
     background-color:rgb(30, 50, 70);
@@ -352,18 +430,30 @@ footer{
     .global_nav{
       display: block;
     }
-    .yuzuki-wrapper{
+    .tajima-wrapper{
         width: 95%;
     }
     .shinyu-wrapper{
         width: 95%;
     }
+    .yuzuki-wrapper{
+      width: 95%;
+  }
+  .sakai-wrapper{
+      width: 95%;
+  }
     .eki-wrapper{
         width: 95%;
     }
     .kurokawa-wrapper{
         width: 95%;
     }
+    .kamoda-wrapper{
+      width: 95%;
+  }
+  .nojiri-wrapper{
+      width: 95%;
+  }
     .messages p{
       font-size: 13px;
     }
@@ -420,10 +510,16 @@ footer{
     .line{
         width: 50%;
     }
-    .yuzuki-wrapper{
+    .tajima-wrapper{
       flex-direction: column;
     }
     .shinyu-wrapper{
+      flex-direction: column;
+    }
+    .yuzuki-wrapper{
+      flex-direction: column;
+    }
+    .sakai-wrapper{
       flex-direction: column;
     }
     .eki-wrapper{
@@ -432,19 +528,34 @@ footer{
     .kurokawa-wrapper{
       flex-direction: column;
     }
-    .sakai-wrapper{
+    .kamoda-wrapper{
       flex-direction: column;
+    }
+    .nojiri-wrapper{
+      flex-direction: column;
+    }
+    .tajima-message p{
+      padding-left: 0;
+    }
+    .shinyu-message p{
+      padding-right: 0;
     }
     .yuzuki-message p{
       padding-left: 0;
     }
-    .shinyu-message p{
+    .sakai-message p{
       padding-right: 0;
     }
     .eki-message p{
       padding-left: 0;
     }
     .kurokawa-message p{
+      padding-right: 0;
+    }
+    .kamoda-message p{
+      padding-left: 0;
+    }
+    .nojiri-message p{
       padding-right: 0;
     }
 }
