@@ -266,6 +266,41 @@ header a{
 .text-seminar4 p{
   line-height: 25px;
 }
+.seminar5{
+  background-color: white;
+  margin: 0 auto;
+  width: 900px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  height: 375px;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.seminar5 h2{
+  font-size: 30px;
+  text-align: center;
+  margin: 25px 0 10px 0;
+  padding-top: 20px;
+}
+.seminar5-contents{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+.img-seminar5{
+  position: relative;
+  width: 400px;
+  margin: 0 20px 0 10px;
+}
+.img-seminar5 img {
+  width: 100%;
+  position: absolute;
+}
+.text-seminar5{
+  margin: 30px 10px 30px 20px;
+}
+.text-seminar5 p{
+  line-height: 25px;
+}
 footer{
     background-color:rgb(30, 50, 70);
     color: white;
@@ -353,6 +388,19 @@ footer{
   }
   .text-seminar4{
     margin: 275px 0 0 20px;
+  }
+  .seminar5{
+    width: 450px;
+    height: 625px;
+  }
+  .seminar5-contents{
+    flex-direction: column;
+  }
+  .img-seminar5{
+    margin: 0 auto;
+  }
+  .text-seminar5{
+    margin-top: 275px;
   }
 }
 @media (max-width: 740px){
@@ -446,6 +494,23 @@ footer{
     margin-top: 210px;
   }
   .text-seminar4 p{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .seminar5{
+    width: 350px;
+    height: 510px;
+  }
+  .seminar5 h2{
+    font-size: 25px;
+  }
+  .img-seminar5{
+    width: 300px;
+  }
+  .text-seminar5{
+    margin-top: 210px;
+  }
+  .text-seminar5 p{
     font-size: 12px;
     line-height: 20px;
   }

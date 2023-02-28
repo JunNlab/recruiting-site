@@ -167,6 +167,16 @@ header{
 .instagram-wrapper{
   margin: 0 30px;
 }
+.instagram-link{
+  position: absolute;
+  display: block;
+  width: 510px;
+  height: 510px;
+  z-index: 1;
+}
+.snapwidget-widget{
+  position: relative;
+}
 .line{
     border-top: 3px solid black;
     width:300px;
@@ -300,6 +310,15 @@ footer{
     margin-left: 20px;
     opacity: 0.5;
     font-style: italic;
+}
+@media screen and (max-width: 1120px){
+  .aboutus-wrapper h2{
+      font-size: 22px;
+  }
+  .aboutus-wrapper p{
+      font-size: 17px;
+      line-height: 25px;
+  }
 }
 @media screen and (max-width: 960px){
     .contents{
