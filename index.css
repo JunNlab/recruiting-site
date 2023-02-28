@@ -137,45 +137,45 @@ header{
     background-color: rgb(243, 243, 243);
 }
 .aboutus-contents{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
 }
 .contents{
-    background-color: white;
-    width: 600px;
-    padding: 10px 10px 0 10px;
-    border: solid 3px;
-    border-radius: 10px;
-    height: 475px;
+  background-color: white;
+  width: 600px;
+  padding: 10px 10px 0 10px;
+  border: solid 3px;
+  border-radius: 10px;
+  height: 475px;
 }
 .aboutus-wrapper h1{
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 30px;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 30px;
 }
 .aboutus-wrapper h2{
-    text-align: center;
-    font-size: 25px;
+  text-align: center;
+  font-size: 25px;
 }
 .aboutus-wrapper p{
-    line-height: 30px;
-    font-size: 19px;
-    padding: 10px;
+  line-height: 30px;
+  font-size: 19px;
+  padding: 10px;
 }
 .instagram-wrapper{
-  margin: 0 30px;
+margin: 0 30px;
+width: 400px;
 }
 .instagram-link{
-  position: absolute;
-  display: block;
-  width: 400px;
-  height: 400px;
-  z-index: 1;
+position: absolute;
+display: block;
+width: 100%;
+z-index: 1;
 }
 .snapwidget-widget{
-  position: relative;
+position: relative;
 }
 .line{
     border-top: 3px solid black;
@@ -507,6 +507,10 @@ footer{
         font-size: 14px;
         line-height: 25px;
     }
+    .instagram-wrapper{
+      
+      width: 300px;
+      }
     .line{
         width: 50%;
     }
