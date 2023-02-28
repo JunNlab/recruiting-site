@@ -52,3 +52,9 @@ $(function(){
     $(".img-seminar4 img:first-child").fadeOut("slow").next("img").fadeIn("slow").end().appendTo(".img-seminar4");
   },5000);
 });
+$(function(){
+  $(".img-seminar5 img:not(:first-child)").hide();
+  setInterval(function() {
+    $(".img-seminar5 img:first-child").fadeOut("slow").next("img").fadeIn("slow").end().appendTo(".img-seminar5");
+  },5000);
+});
