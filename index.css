@@ -170,8 +170,8 @@ header{
 .instagram-link{
   position: absolute;
   display: block;
-  width: 510px;
-  height: 510px;
+  width: 400px;
+  height: 400px;
   z-index: 1;
 }
 .snapwidget-widget{
