@@ -136,6 +136,7 @@ header a{
     border-radius: 10px;
     height: 375px;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
 }
 .seminar1 h2{
     font-size: 30px;
