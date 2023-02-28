@@ -171,7 +171,8 @@ width: 400px;
 .instagram-link{
 position: absolute;
 display: block;
-width: 100%;
+width: 400px;
+height: 400px;
 z-index: 1;
 }
 .snapwidget-widget{
@@ -508,8 +509,11 @@ footer{
         line-height: 25px;
     }
     .instagram-wrapper{
-      
       width: 300px;
+      }
+    .instagram-link{
+      width: 300px;
+      height: 300px;
       }
     .line{
         width: 50%;
