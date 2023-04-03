@@ -11,6 +11,7 @@ body {
   padding-top: 40px;
   clear: left;
 }
+
 header{
   width: 100%;
   background-color: rgba(30, 50, 70, 0.9);
@@ -115,648 +116,152 @@ header a{
 }
 
 
-
 .main {
   background-color: rgb(243, 243, 243);
+  padding-top: 70px;
 }
 
-.members-title {
-  padding-top: 110px;
+
+.page-title {
+  margin: 110px 20px 2px 20px;
+  color: rgb(50, 70, 114);
   background-size: cover;
   justify-content: center;
+  text-align: center;
+  font-size: 145%;
 }
 
-.members-title h1 {
-  font-size: 35px;
-  text-align: center;
-  margin-bottom: 25px;
+
+.research-theme {
+  display: flex;
+  align-items: center;
+}
+
+.research-theme:before,
+.research-theme:after {
+  content: "";
+  height: 1.5px;
+  flex-grow: 1;
+  background-color: #1e366a;
+}
+
+.research-theme:before {
+  margin-right: 1rem;
+  /*background: linear-gradient(-90deg, #666, transparent);*/
+}
+
+.research-theme:after {
+  margin-left: 1rem;
+  /*background: linear-gradient(90deg, #666, transparent);*/
 }
 
 .picture {
-  max-width: 1050px;
-  margin: 0 auto;
+  max-width: 1080px;
+  margin: 35px auto 50px auto;
   text-align: center;
-  margin-bottom: 40px;
 }
 
 .allmembers {
   width: 90%;
   height: auto;
-  margin: 0 auto;
 }
 
-/*集合写真ここまで*/
-
-.member-number {
-  padding-left: 8%;
-  margin-bottom: 2%;
+.name-title {
+  margin: 2px 40px 2px 40px;
+  font-size: 100%;
 }
 
-.number {
-  color: rgb(100, 94, 94);
+.JPN {
+  display:flex;
 }
 
-.member-number h3 {
-  position: relative;
-  display: inline-block;
-  padding: 0 18px;
+.name {
+  width: 20%;
+  padding-right: 4%;
 }
 
-.member-number h3:before, .member-number h3:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  display: inline-block;
-  width: 13px;
-  height: 0.7px;
-  background-color: rgb(44, 41, 41);
+.title {
+  width: 80%
 }
 
-.member-number h3:before {
-  left:0;
+.Eng {
+  display:flex;
 }
 
-.member-number h3:after {
-  right:0;
+.hr1 {
+  margin: 8px 20px;
+  border-top: 1.4px dashed #9e9d9d;
 }
 
-
-.card-group {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-  
-.card {
-  width: 27%;
-  height: 417px;
-  margin-bottom: 20px;
-  display: inline-block;
-  vertical-align: top;
-  border-left: solid 7px #3b3934;
+.hr2 {
+  margin: 15px 20px 55px 20px;
+  border: 1px solid #1e366a;
 }
 
-.card:nth-child(2n + 1) {
-  margin-right: 23px;
-  margin-left: 23px;
-}
-
-.card:nth-child(-n+28) {
-  background-color: rgb(247, 245, 245);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-}
-
-.card:nth-child(29) {
-  border: white;
-  background-color: rgb(243, 243, 243);
-}
-
-.card:nth-child(30) {
-  border: white;
-  background-color: rgb(243, 243, 243);
-}
-
-
-
-.card-image {
-  display: flex;
-  align-items: flex-end;
-}
-
-
-
-.card img {
-  width:124px;
-  height:124px;
-  margin-left: 45px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-}
-
-.card-name {
-  margin-left: 35px;
-  margin-bottom: 10px;
-  font-size: 21px;
-  color: rgb(82, 80, 80); 
-} 
-
-.hina-name {
-  margin-left: 35px;
-  margin-bottom: 10px;
-  font-size: 20px;
-  color: rgb(82, 80, 80); 
-}
-
-.card-text {
-  padding: 10px;
-  height: 40%;
-  margin-left: 12px;
-  margin-right: 12px;
-  font-size: 16px;
-  color: rgb(100, 94, 94);
-}
-
-.card-body hr {
-  border-top: 2px dotted #bbb;
-}
-
-h4 {
-  position: relative;
-  display: inline-block;
-  padding: 0 18px;
-}
-
-h4:before, h4:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  display: inline-block;
-  width: 13px;
-  height: 0.7px;
-  background-color: rgb(44, 41, 41);
-}
-
-h4:before {
-  left:0;
-}
-h4:after {
-  right: 0;
-}
-
-footer{
-  background-color:rgb(30, 50, 70);
+footer {
+  background-color: rgb(30, 50, 70);
   color: white;
   position: absolute;
   width: 100%;
 }
-.content{
+.content {
   float: left;
   margin: 40px 50px 0 50px;
 }
-.sns a{
+.sns a {
   font-size: 50px;
 }
-.instagram{
-  color: #D93177;
+.instagram {
+  color: #d93177;
   margin-right: 25px;
 }
 .twitter {
   color: #55acee;
 }
-.website-links li{
-  list-style:none;
+.website-links li {
+  list-style: none;
   margin: 10px 0;
 }
-.website-links a{
+.website-links a {
   color: white;
 }
-.footer-bottom{
+
+.footer-hr {
+  border-top: 1px solid white;
+}
+.footer-bottom {
   padding: 20px 0;
 }
-.copyright-text{
+.copyright-text {
   margin-left: 20px;
   opacity: 0.5;
   font-style: italic;
 }
 
-@media screen and (max-width: 1220px) {
-  .card-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: #004f80;
+
+@media screen and (max-width: 834px) {
+
+  .page-title {
+    margin: 110px 20px 2px 20px;
+    font-size: 115%;
   }
-  
-  .card {
-    width: 42%;
-    height: 417px;
-    margin-bottom: 20px;
-    display: inline-block; /* インラインブロック化 */
-    vertical-align: top; /* 上端を揃える */
-    border-left: solid 7px #3b3934;
+
+  .picture {
+    margin: 25px auto 40px auto;
   }
-  
-  .card:nth-child(2n + 1) {
-    margin-right: 23px;
-    margin-left: 23px;
+
+  .name-title {
+    margin: 2px 20px 2px 20px;
+    font-size: 13px;
   }
-  
-  .card:nth-child(-n+28) {
-    background-color: rgb(247, 245, 245);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+
+  .name {
+    padding-right: 6%;
   }
-  
-  .card:nth-child(29) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  .card:nth-child(30) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  
-  
-  .card-image {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-  }
-  
-  
-  
-  .card img {
-    width:120px;
-    height:120px;
-    margin-left: 45px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 15%;
-  }
-  
-  .card-name {
-    margin-left: 35px;
-    margin-bottom: 10px;
-    font-size: 24px;
-    color: rgb(82, 80, 80); 
-  } 
-  
-  .hina-name {
-    margin-left: 35px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    color: rgb(82, 80, 80); 
-  }
-  
-  .card-text {
-    padding: 10px;
-    height: 40%;
-    margin-left: 12px;
-    margin-right: 12px;
-    font-size: 15px;
-    color: rgb(100, 94, 94);
-  }
-  
-  .card-body hr {
-    border-top: 2px dotted #bbb;
-  }
-  
-  h4 {
-    position: relative;
-    display: inline-block;
-    padding: 0 18px;
-  }
-  
-  h4:before, h4:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    display: inline-block;
-    width: 13px;
-    height: 0.7px;
-    background-color: rgb(44, 41, 41);
-  }
-  
-  h4:before {
-    left:0;
-  }
-  h4:after {
-    right: 0;
-  }
+
 }
 
-@media screen and (max-width: 1080px) {
-  .card-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: #004f80;
-  }
-  
-  .card {
-    width: 42%;
-    height: 417px;
-    margin-bottom: 20px;
-    display: inline-block; /* インラインブロック化 */
-    vertical-align: top; /* 上端を揃える */
-    border-left: solid 7px #3b3934;
-  }
-  
-  .card:nth-child(2n+1) {
-    margin-right: 23px;
-    margin-left: 0px;
-  }
-  
-  .card:nth-child(-n+28) {
-    background-color: rgb(247, 245, 245);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-  }
-  
-  .card:nth-child(29) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  .card:nth-child(30) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  
-  
-  .card-image {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-  }
-  
-  
-  
-  .card img {
-    width:120px;
-    height:120px;
-    margin-left: 45px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 15%;
-  }
-  
-  .card-name {
-    margin-left: 35px;
-    margin-bottom: 10px;
-    font-size: 24px;
-    color: rgb(82, 80, 80); 
-  } 
-  
-  .hina-name {
-    margin-left: 35px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    color: rgb(82, 80, 80); 
-  }
-  
-  .card-text {
-    padding: 10px;
-    height: 40%;
-    margin-left: 12px;
-    margin-right: 12px;
-    font-size: 15px;
-    color: rgb(100, 94, 94);
-  }
-  
-  .card-body hr {
-    border-top: 2px dotted #bbb;
-  }
-  
-  h4 {
-    position: relative;
-    display: inline-block;
-    padding: 0 18px;
-  }
-  
-  h4:before, h4:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    display: inline-block;
-    width: 13px;
-    height: 0.7px;
-    background-color: rgb(44, 41, 41);
-  }
-  
-  h4:before {
-    left:0;
-  }
-  h4:after {
-    right: 0;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  .card-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: #004f80;
-  }
-  
-  .card {
-    width: 42%;
-    height: 417px;
-    margin-bottom: 20px;
-    display: inline-block; /* インラインブロック化 */
-    vertical-align: top; /* 上端を揃える */
-    border-left: solid 7px #3b3934;
-  }
-  
-  .card:nth-child(2n + 1) {
-    margin-right: 23px;
-    margin-left: 0px;
-  }
-  
-  .card:nth-child(-n+28) {
-    background-color: rgb(247, 245, 245);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-  }
-  
-  .card:nth-child(29) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  .card:nth-child(30) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  
-  
-  .card-image {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-  }
-  
-  
-  
-  .card img {
-    width:100px;
-    height:100px;
-    margin-left: 45px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 15%;
-  }
-  
-  .card-name {
-    margin-left: 35px;
-    margin-bottom: 10px;
-    font-size: 22px;
-    color: rgb(82, 80, 80); 
-  } 
-  
-  .hina-name {
-    margin-left: 35px;
-    margin-bottom: 10px;
-    font-size: 19px;
-    color: rgb(82, 80, 80); 
-  }
-  
-  .card-text {
-    padding: 10px;
-    height: 40%;
-    margin-left: 12px;
-    margin-right: 12px;
-    font-size: 16px;
-    color: rgb(100, 94, 94);
-  }
-  
-  .card-body hr {
-    border-top: 2px dotted #bbb;
-  }
-  
-  h4 {
-    position: relative;
-    display: inline-block;
-    padding: 0 18px;
-  }
-  
-  h4:before, h4:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    display: inline-block;
-    width: 13px;
-    height: 0.7px;
-    background-color: rgb(44, 41, 41);
-  }
-  
-  h4:before {
-    left:0;
-  }
-  h4:after {
-    right: 0;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .card-group {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    color: #004f80;
-  }
-  
-  .card {
-    width: 42%;
-    height: 417px;
-    margin-bottom: 20px;
-    display: inline-block; /* インラインブロック化 */
-    vertical-align: top; /* 上端を揃える */
-    border-left: solid 7px #3b3934;
-  }
-  
-  .card:nth-child(2n + 1) {
-    margin-right: 23px;
-    margin-left: 0px;
-  }
-  
-  .card:nth-child(-n+28) {
-    background-color: rgb(247, 245, 245);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-  }
-  
-  .card:nth-child(29) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  .card:nth-child(30) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  
-  
-  .card-image {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-  }
-  
-  
-  
-  .card img {
-    width:80px;
-    height:80px;
-    margin-left: 45px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 15%;
-  }
-  
-  .card-name {
-    margin-left: 35px;
-    margin-bottom: 10px;
-    font-size: 20px;
-    color: rgb(82, 80, 80); 
-  } 
-  
-  .hina-name {
-    margin-left: 35px;
-    margin-bottom: 10px;
-    font-size: 17px;
-    color: rgb(82, 80, 80); 
-  }
-  
-  .card-text {
-    padding: 10px;
-    height: 40%;
-    margin-left: 12px;
-    margin-right: 12px;
-    font-size: 15px;
-    color: rgb(100, 94, 94);
-  }
-  
-  .card-body hr {
-    border-top: 2px dotted #bbb;
-  }
-  
-  h4 {
-    position: relative;
-    display: inline-block;
-    padding: 0 18px;
-  }
-  
-  h4:before, h4:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    display: inline-block;
-    width: 13px;
-    height: 0.7px;
-    background-color: rgb(44, 41, 41);
-  }
-  
-  h4:before {
-    left:0;
-  }
-  h4:after {
-    right: 0;
-  }
-}
-
-@media screen and (max-width: 740px) {
+@media (max-width: 740px){
   .area_nav_header{
     display: none;
   }
@@ -769,103 +274,6 @@ footer{
   .global_nav{
     display: block;
   }
-  .card {
-    width: 95%;
-    height: 120%;
-    border-left: solid 7px #3b3934;
-  }
-  
-  .card:nth-child(2n + 1) {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .card-body {
-    display: flex;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 2%;
-    margin-bottom: 1%;
-  }
-  
-  .card:nth-child(-n+28) {
-    background-color: rgb(247, 245, 245);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-  }
-  
-  
-  .card:nth-child(29) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  .card:nth-child(30) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-   
-  .card-image {
-    flex-direction: column-reverse;
-    padding-right: 25px;
-  }
-  
-  
-  
-  .card img {
-    width:150px;
-    height:150px;
-    margin: auto;
-  }
-  
-  .card-name {
-    margin: auto;
-    margin-top: 18px;
-    font-size: 23px;
-    color: rgb(82, 80, 80); 
-  }
-  
-  
-  .hina-name {
-    margin: auto;
-    margin-top: 18px;
-    font-size: 20px;
-    color: rgb(82, 80, 80); 
-  }
-  
-  .card-text {
-    margin-left: 30px;
-    font-size: 15px;
-    color: rgb(100, 94, 94);
-  }
-  
-  .card-body hr {
-    border-top: 2px dotted #bbb;
-  }
-  
-  h4 {
-    position: relative;
-    display: inline-block;
-    padding: 0 18px;
-  }
-  
-  h4:before, h4:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    display: inline-block;
-    width: 13px;
-    height: 0.7px;
-    background-color: rgb(44, 41, 41);
-  }
-  
-  h4:before {
-    left:0;
-  }
-  h4:after {
-    right: 0;
-  }
 }
 
 @media (max-width: 670px){
@@ -877,227 +285,7 @@ footer{
   }
 }
 
-@media screen and (max-width: 590px) {
-  .member-number {
-    padding-left: 7%;
-    margin-bottom: 2%;
-  }
-  
-  .card {
-    width: 95%;
-    /*height: 100%;*/
-    border-left: solid 7px #3b3934;
-  }
-  
-  .card:nth-child(2n + 1) {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .card-body {
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 2%;
-    margin-bottom: 1%;
-  }
-  
-  .card:nth-child(-n+28) {
-    background-color: rgb(247, 245, 245);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-  }
-  
-  .card:nth-child(29) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  .card:nth-child(30) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-   
-  .card-body {
-    padding: 2px;
-
-  }
-
-  .card-image {
-    flex-direction: column-reverse;
-    padding-right: 25px;
-  }
-  
-  
-  
-  .card img {
-    width:120px;
-    height:120px;
-    margin-right: 2px;
-    margin-left: 2px;
-    margin-bottom: 0px;
-  }
-  
-  .card-name {
-    margin: auto;
-    margin-top: 10px;
-    margin-top: 14px;
-    font-size: 20px;
-    color: rgb(82, 80, 80); 
-  }
-  
-  
-  .hina-name {
-    margin: auto;
-    margin-top: 14px;
-    font-size: 20px;
-    color: rgb(82, 80, 80); 
-  }
-  
-  .card-text {
-    margin-left: 30px;
-    margin-top: 3px;
-    margin-top: 4px;
-    font-size: 13px;
-    color: rgb(100, 94, 94);
-  }
-  
-  .card-body hr {
-    border-top: 2px dotted #bbb;
-  }
-  
-  h4 {
-    position: relative;
-    display: inline-block;
-    padding: 0 18px;
-  }
-  
-  h4:before, h4:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    display: inline-block;
-    width: 13px;
-    height: 0.7px;
-    background-color: rgb(44, 41, 41);
-  }
-  
-  h4:before {
-    left:0;
-  }
-  h4:after {
-    right: 0;
-  }
-}
-
-@media screen and (max-width: 470px) {
-  .members-title h1 {
-    font-size: 30px;
-  }
-  .member-number {
-    padding-left: 7%;
-    margin-bottom: 2%;
-  }
-
-  .card {
-    width: 95%;
-    /*height: 100%;*/
-    border-left: solid 7px #3b3934;
-  }
-  
-  .card:nth-child(2n + 1) {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .card-body {
-    display: flex;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-top: 12px;
-  }
-  
-  .card:nth-child(-n+28) {
-    background-color: rgb(247, 245, 245);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-  }
-  
-  
-  .card:nth-child(29) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  .card:nth-child(30) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-   
-  .card-image {
-    flex-direction: column-reverse;
-    padding-right: 15px;
-  }
-  
-  .card-body {
-    margin-top: 2px;
-  }
-  
-  .card img {
-    width:90px;
-    height:90px;
-    margin: auto;
-    margin-bottom: 0px;
-  }
-  
-  .card-name {
-    margin: auto;
-    margin-top: 7px;
-    font-size: 16px;
-    color: rgb(82, 80, 80); 
-  }
-  
-  
-  .hina-name {
-    margin: auto;
-    margin-top: 7px;
-    font-size: 13px;
-    color: rgb(82, 80, 80); 
-  }
-  
-  .card-text {
-    margin-left: 15px;
-    font-size: 12px;
-    color: rgb(100, 94, 94);
-  }
-  
-  .card-body hr {
-    border-top: 2px dotted #bbb;
-  }
-  
-  h4 {
-    position: relative;
-    display: inline-block;
-    padding: 0 18px;
-  }
-  
-  h4:before, h4:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    display: inline-block;
-    width: 13px;
-    height: 0.7px;
-    background-color: rgb(44, 41, 41);
-  }
-  
-  h4:before {
-    left:0;
-  }
-  h4:after {
-    right: 0;
-  }
+@media screen and (max-width: 470px){
   .website-links li{
     font-size: 13px;
   }
@@ -1109,105 +297,24 @@ footer{
   }
 }
 
-@media screen and (max-width: 400px) {
-  .member-number {
-    padding-left: 7%;
-    margin-bottom: 2%;
+@media screen and (max-width: 414px) {
+
+  .page-title {
+    margin: 110px 20px 2px 20px;
+    font-size: 90%;
   }
 
-  .card {
-    width: 95%;
-    /*height: 100%;*/
-    border-left: solid 7px #3b3934;
-  }
-  
-  .card:nth-child(2n + 1) {
-    margin-right: 0px;
-    margin-left: 0px;
+  .picture {
+    margin: 15px auto 20px auto;
   }
 
-  .card-body {
-    display: flex;
-    margin-right: 8px;
-    margin-left: 8px;
+  .name-title {
+    margin: 2px 20px 2px 20px;
+    font-size: 10px;
   }
-  
-  .card:nth-child(-n+28) {
-    background-color: rgb(247, 245, 245);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+
+  .hr2 {
+    margin-bottom: 40px;
   }
-  
-  
-  .card:nth-child(29) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  .card:nth-child(30) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-   
-  .card-image {
-    flex-direction: column-reverse;
-    padding-right: 15px;
-  }
-  
-  
-  .card img {
-    width:90px;
-    height:90px;
-    margin: auto;
-    margin-bottom: 0px;
-  }
-  
-  .card-name {
-    margin: auto;
-    margin-top: 7px;
-    font-size: 16px;
-    color: rgb(82, 80, 80); 
-  }
-  
-  
-  .hina-name {
-    margin: auto;
-    margin-top: 7px;
-    font-size: 13px;
-    color: rgb(82, 80, 80); 
-  }
-  
-  .card-text {
-    margin-left: 15px;
-    font-size: 11px;
-    color: rgb(100, 94, 94);
-  }
-  
-  .card-body hr {
-    border-top: 2px dotted #bbb;
-  }
-  
-  h4 {
-    position: relative;
-    display: inline-block;
-    padding: 0 18px;
-  }
-  
-  h4:before, h4:after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    display: inline-block;
-    width: 13px;
-    height: 0.7px;
-    background-color: rgb(44, 41, 41);
-  }
-  
-  h4:before {
-    left:0;
-  }
-  h4:after {
-    right: 0;
-  }
+
 }
