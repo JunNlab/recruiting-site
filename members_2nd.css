@@ -199,22 +199,10 @@ header a{
   margin-left: 23px;
 }
 
-.card:nth-child(-n+19) {
+.card:nth-child(-n+20) {
   background-color: rgb(247, 245, 245);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
-
-.card:nth-child(20) {
-  border: white;
-  background-color: rgb(243, 243, 243);
-}
-
-.card:nth-child(21) {
-  border: white;
-  background-color: rgb(243, 243, 243);
-}
-
-
 
 .card-image {
   display: flex;
@@ -333,23 +321,10 @@ footer{
     margin-left: 23px;
   }
   
-  .card:nth-child(-n+19) {
+  .card:nth-child(-n+20) {
     background-color: rgb(247, 245, 245);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-  }
-  
-  .card:nth-child(20) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-  }
-  
-  .card:nth-child(21) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  
+  }  
   
   .card-image {
     display: flex;
@@ -433,24 +408,11 @@ footer{
     margin-left: 0px;
   }
   
-  .card:nth-child(-n+19) {
+  .card:nth-child(-n+20) {
     background-color: rgb(247, 245, 245);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   }
-  
-  .card:nth-child(20) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-  }
-  
-  .card:nth-child(21) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  
-  
+
   .card-image {
     display: flex;
     align-items: flex-end;
@@ -534,23 +496,10 @@ footer{
     margin-left: 0px;
   }
   
-  .card:nth-child(-n+19) {
+  .card:nth-child(-n+20) {
     background-color: rgb(247, 245, 245);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-  }
-  
-  .card:nth-child(20) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-  }
-  
-  .card:nth-child(21) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  
+  }  
   
   .card-image {
     display: flex;
@@ -636,22 +585,10 @@ footer{
     margin-left: 0px;
   }
   
-  .card:nth-child(-n+19) {
+  .card:nth-child(-n+20) {
     background-color: rgb(247, 245, 245);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   }
-  
-  .card:nth-child(20) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-  }
-  
-  .card:nth-child(21) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
   
   .card-image {
     display: flex;
@@ -746,23 +683,10 @@ footer{
     margin-bottom: 1%;
   }
   
-  .card:nth-child(-n+19) {
+  .card:nth-child(-n+20) {
     background-color: rgb(247, 245, 245);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-  }
-
-  .card:nth-child(20) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
-  .card:nth-child(21) {
-    border: white;
-    background-color: rgb(243, 243, 243);
-    display: none;
-  }
-  
+  }  
   
   .card-image {
     flex-direction: column-reverse;
