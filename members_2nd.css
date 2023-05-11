@@ -199,7 +199,7 @@ header a{
   margin-left: 23px;
 }
 
-.card:nth-child(-n+20) {
+.card:nth-child(-n + 21) {
   background-color: rgb(247, 245, 245);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
 }
@@ -321,7 +321,7 @@ footer{
     margin-left: 23px;
   }
   
-  .card:nth-child(-n+20) {
+  .card:nth-child(-n + 21) {
     background-color: rgb(247, 245, 245);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   }  
@@ -402,13 +402,13 @@ footer{
     vertical-align: top; /* 上端を揃える */
     border-left: solid 7px #3b3934;
   }
-  
+
   .card:nth-child(2n+1) {
     margin-right: 23px;
     margin-left: 0px;
   }
-  
-  .card:nth-child(-n+20) {
+
+  .card:nth-child(-n + 21) {
     background-color: rgb(247, 245, 245);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   }
@@ -418,9 +418,7 @@ footer{
     align-items: flex-end;
     justify-content: flex-end;
   }
-  
-  
-  
+    
   .card img {
     width:120px;
     height:120px;
@@ -496,7 +494,7 @@ footer{
     margin-left: 0px;
   }
   
-  .card:nth-child(-n+20) {
+  .card:nth-child(-n + 21) {
     background-color: rgb(247, 245, 245);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   }  
@@ -506,8 +504,6 @@ footer{
     align-items: flex-end;
     justify-content: flex-end;
   }
-  
-  
   
   .card img {
     width:100px;
@@ -524,7 +520,6 @@ footer{
     font-size: 22px;
     color: rgb(82, 80, 80); 
   } 
-  
   
   .card-text {
     padding: 10px;
@@ -585,7 +580,7 @@ footer{
     margin-left: 0px;
   }
   
-  .card:nth-child(-n+20) {
+  .card:nth-child(-n+21) {
     background-color: rgb(247, 245, 245);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   }
@@ -595,8 +590,6 @@ footer{
     align-items: flex-end;
     justify-content: flex-end;
   }
-  
-  
   
   .card img {
     width:80px;
@@ -683,7 +676,7 @@ footer{
     margin-bottom: 1%;
   }
   
-  .card:nth-child(-n+20) {
+  .card:nth-child(-n + 21) {
     background-color: rgb(247, 245, 245);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   }  
@@ -774,7 +767,7 @@ footer{
     margin-bottom: 1%;
   }
   
-  .card:nth-child(-n+19) {
+  .card:nth-child(-n + 21) {
     background-color: rgb(247, 245, 245);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   }
@@ -800,8 +793,6 @@ footer{
     flex-direction: column-reverse;
     padding-right: 25px;
   }
-  
-  
   
   .card img {
     width:120px;
@@ -883,7 +874,7 @@ footer{
     margin-top: 12px;
   }
   
-  .card:nth-child(-n+19) {
+  .card:nth-child(-n + 21) {
     background-color: rgb(247, 245, 245);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   }
@@ -990,7 +981,7 @@ footer{
     margin-left: 8px;
   }
   
-  .card:nth-child(-n+19) {
+  .card:nth-child(-n + 21) {
     background-color: rgb(247, 245, 245);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
   }
@@ -1012,7 +1003,6 @@ footer{
     padding-right: 15px;
   }
   
-  
   .card img {
     width:90px;
     height:90px;
@@ -1026,7 +1016,6 @@ footer{
     font-size: 16px;
     color: rgb(82, 80, 80); 
   }
-  
   
   .card-text {
     margin-left: 15px;
