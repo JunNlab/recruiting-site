@@ -1,148 +1,182 @@
-  *{
-    box-sizing:border-box;  
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing:border-box;  
+  margin: 0;
+  padding: 0;
 }
+
 body {
-    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
-  }
-.clear{
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.clear {
   clear:left;
 }
-header{
-    width: 100%;
-    background-color: rgba(30, 50, 70, 0.9);
-    position:fixed;
-    top:0;
-    z-index:10;
-  }
-  header a{
-    color:#000;
-    text-decoration: none;
-  }
+
+header {
+  width: 100%;
+  background-color: rgba(30, 50, 70, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+header a {
+  color:#000;
+  text-decoration: none;
+}
   
-  .container{
-    display: flex;
-    align-items: center;
-    max-width: none;
-  }
-  .logo{
-    display: block;
-  }
-  .logo img{
-    height: 60px;
-    vertical-align: bottom;
-  }
-  .logo img:hover{
-    background-color: rgba(30, 50, 70, 1);
-    
-  }
-  .area_nav_header{
-    margin-left: auto;
-    display: block;
-  }
-  .list_nav_header{
-    display: flex;
-  }
-  .area_nav_header ul li{
-    display: block;
-  }
-  .menu{
-    padding: 18px;
-    color: #fff;
-  }
-  .menu:hover{
-    background-color: rgba(30, 50, 70, 1);
-  }
-  .list_nav_header > li + li{
-    margin-left: 40px;
-  }
-  .sub_menu{
-    position: absolute;
-    background-color: rgba(30, 50, 70, 0.9);
-    margin-top: 18px;
-    display: none;
-  }
-  .sub_menu ul li{
-    line-height: 50px;
-    display: block;
-  }
-  .area_nav_header ul li:hover .sub_menu{
-    display: block;
-  }
-  .sub_menu a{
-    padding: 0 18px;
-    color: #fff;
-  }
-  .sub_menu ul li:hover{
-    background-color: rgba(30, 50, 70, 1);
-  }
-  .sub_menu_members{
-    width: 115px;
-  }
-  .sub_menu_activities{
-    width: 128px;
-  }
-  .toggle-wrapper{
-    margin-left: auto;
-    padding: 18px;
-    display: none;
-  }
-  .toggle-wrapper:hover{
-    background-color: rgba(30, 50, 70, 1);
-  }
-  .toggle{
-    height: 5px;
-    width: 35px;
-    background-color: #fff;
-    border-radius: 25px;
-    margin-bottom: 5px;
-  }
-  .global_nav{
-    display: none;
-  }
-  .global_nav ul li{
-    text-align: center;
-    line-height: 50px;
-  }
-  .global_nav ul li:hover{
-    background-color: rgba(30, 50, 70, 1);
-  }
-  .global_nav a{
-    color: #fff;
-  }
+.container {
+  display: flex;
+  align-items: center;
+  max-width: none;
+}
+
+.logo {
+  display: block;
+}
+
+.logo img {
+  height: 60px;
+  vertical-align: bottom;
+}
+
+.logo img:hover {
+  background-color: rgba(30, 50, 70, 1);
+  
+}
+
+.area_nav_header {
+  margin-left: auto;
+  display: block;
+}
+
+.list_nav_header {
+  display: flex;
+}
+
+.area_nav_header ul li {
+  display: block;
+}
+
+.menu {
+  padding: 18px;
+  color: #fff;
+}
+
+.menu:hover {
+  background-color: rgba(30, 50, 70, 1);
+}
+
+.list_nav_header > li + li {
+  margin-left: 40px;
+}
+
+.sub_menu {
+  position: absolute;
+  background-color: rgba(30, 50, 70, 0.9);
+  margin-top: 18px;
+  display: none;
+}
+
+.sub_menu ul li {
+  line-height: 50px;
+  display: block;
+}
+
+.area_nav_header ul li:hover .sub_menu {
+  display: block;
+}
+
+.sub_menu a {
+  padding: 0 18px;
+  color: #fff;
+}
+
+.sub_menu ul li:hover {
+  background-color: rgba(30, 50, 70, 1);
+}
+
+.sub_menu_members {
+  width: 115px;
+}
+
+.sub_menu_activities {
+  width: 128px;
+}
+
+.toggle-wrapper {
+  margin-left: auto;
+  padding: 18px;
+  display: none;
+}
+
+.toggle-wrapper:hover {
+  background-color: rgba(30, 50, 70, 1);
+}
+
+.toggle {
+  height: 5px;
+  width: 35px;
+  background-color: #fff;
+  border-radius: 25px;
+  margin-bottom: 5px;
+}
+
+.global_nav {
+  display: none;
+}
+
+.global_nav ul li {
+  text-align: center;
+  line-height: 50px;
+}
+
+.global_nav ul li:hover {
+  background-color: rgba(30, 50, 70, 1);
+}
+
+.global_nav a {
+  color: #fff;
+}
+
 .top-wrapper {
-    height: 610px;
-    background-image: url("img/hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    color:white;
-  }
+  height: 610px;
+  background-image: url("img/hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color:white;
+}
+
 .top-wrapper h1 {
-    line-height: 60px;
-    padding-top: 150px;
-    font-size: 50px;
-    letter-spacing: 10px;
-  }
-.intro h1{
-    padding-top: 50px;
-    font-size: 40px;
+  line-height: 60px;
+  padding-top: 150px;
+  font-size: 50px;
+  letter-spacing: 10px;
 }
-.aboutus{
-    margin-top: 40px;
+
+.intro h1 {
+  padding-top: 50px;
+  font-size: 40px;
 }
-.aboutus-wrapper{
-    padding: 40px 0;
-    background-color: rgb(243, 243, 243);
+
+.aboutus {
+  margin-top: 40px;
 }
-.aboutus-contents{
+
+.aboutus-wrapper {
+  padding: 40px 0;
+  background-color: rgb(243, 243, 243);
+}
+
+.aboutus-contents {
   display:flex;
   justify-content: center;
   align-items: center;
   margin: 30px;
 }
-.contents{
+
+.contents {
   background-color: white;
   width: 600px;
   padding: 10px 10px 0 10px;
@@ -150,96 +184,69 @@ header{
   border-radius: 10px;
   height: 475px;
 }
-.aboutus-wrapper h1{
+
+.aboutus-wrapper h1 {
   text-align: center;
   font-size: 35px;
   margin-bottom: 30px;
 }
-.aboutus-wrapper h2{
+
+.aboutus-wrapper h2 {
   text-align: center;
   font-size: 25px;
 }
-.aboutus-wrapper p{
+
+.aboutus-wrapper p {
   line-height: 30px;
   font-size: 19px;
   padding: 10px;
 }
-.instagram-wrapper{
-margin: 0 30px;
-width: 400px;
+
+.instagram-wrapper {
+  margin: 0 30px;
+  width: 400px;
 }
-.instagram-link{
-position: absolute;
-display: block;
-width: 400px;
-height: 400px;
-z-index: 1;
+
+.instagram-link {
+  position: absolute;
+  display: block;
+  width: 400px;
+  height: 400px;
+  z-index: 1;
 }
-.snapwidget-widget{
-position: relative;
+
+.snapwidget-widget {
+  position: relative;
 }
-.line{
-    border-top: 3px solid black;
-    width:300px;
-    margin: 50px auto 0 auto;
-  }
-.message-wrapper{
-    background-color: rgb(243, 243, 243);
-    padding-bottom: 20px;
+
+.line {
+  border-top: 3px solid black;
+  width:300px;
+  margin: 50px auto 0 auto;
 }
-.messages h2{
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 30px;
+
+.message-wrapper {
+  background-color: rgb(243, 243, 243);
+  padding-bottom: 20px;
 }
-.messages img{
+
+.messages h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.messages img {
   width: 200px;
 }
-.message-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.message-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.tajima-wrapper{
-    width: 650px;
-    display: flex;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    align-items: center;
-    margin-bottom: 20px;
-    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
-}
-.tajima-img{
-    text-align: center;
-}
-.tajima-img h3{
-    text-align: center;
-}
-.tajima-message p{
-    padding-left: 20px;
-}
-.shinyu-wrapper{
-    width: 650px;
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    align-items: center;
-    margin-bottom: 20px;
-    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
-}
-.shinyu-img{
-    text-align: center;
-}
-.shinyu-img h3{
-    text-align: center;
-}
-.shinyu-message p{
-    padding-right: 20px;
-}
-.yuzuki-wrapper{
+
+.image-left-wrapper {
   width: 650px;
   display: flex;
   background-color: #fff;
@@ -249,16 +256,21 @@ position: relative;
   margin-bottom: 20px;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
 }
-.yuzuki-img{
+
+.leader-img {
   text-align: center;
 }
-.yuzuki-img h3{
+
+.leader-img h3{
   text-align: center;
 }
-.yuzuki-message p{
-  padding-left: 20px;
+
+.leader-message p {
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.sakai-wrapper{
+
+.image-right-wrapper {
   width: 650px;
   display: flex;
   flex-direction: row-reverse;
@@ -269,127 +281,50 @@ position: relative;
   margin-bottom: 20px;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
 }
-.sakai-img{
-  text-align: center;
+
+footer {
+  background-color:rgb(30, 50, 70);
+  color: white;
+  width: 100%;
 }
-.sakai-img h3{
-  text-align: center;
+
+.content {
+  float: left;
+  margin: 40px 50px 0 50px;
 }
-.sakai-message p{
-  padding-right: 20px;
+
+.sns a {
+  font-size: 50px;
 }
-.eki-wrapper{
-    width: 650px;
-    display: flex;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    align-items: center;
-    margin-bottom: 20px;
-    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+
+.instagram {
+  color: #D93177;
+  margin-right: 25px;
 }
-.eki-img{
-    text-align: center;
-}
-.eki-img h3{
-    text-align: center;
-}
-.eki-message p{
-    padding-left: 20px;
-}
-.kurokawa-wrapper{
-    width: 650px;
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    align-items: center;
-    margin-bottom: 20px;
-    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
-}
-.kurokawa-img{
-    text-align: center;
-}
-.kurokawa-img h3{
-    text-align: center;
-}
-.kurokawa-message p{
-    padding-right: 20px;
-}
-.kamoda-wrapper{
-  width: 650px;
-  display: flex;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  align-items: center;
-  margin-bottom: 20px;
-  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
-}
-.kamoda-img{
-  text-align: center;
-}
-.kamoda-img h3{
-  text-align: center;
-}
-.kamoda-message p{
-  padding-left: 20px;
-}
-.nojiri-wrapper{
-  width: 650px;
-  display: flex;
-  flex-direction: row-reverse;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  align-items: center;
-  margin-bottom: 20px;
-  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
-}
-.nojiri-img{
-  text-align: center;
-}
-.nojiri-img h3{
-  text-align: center;
-}
-.nojiri-message p{
-  padding-right: 20px;
-}
-footer{
-    background-color:rgb(30, 50, 70);
-    color: white;
-    width: 100%;
-}
-.content{
-    float: left;
-    margin: 40px 50px 0 50px;
-}
-.sns a{
-    font-size: 50px;
-}
-.instagram{
-    color: #D93177;
-    margin-right: 25px;
-}
+
 .twitter {
-    color: #55acee;
+  color: #55acee;
 }
-.website-links li{
-    list-style:none;
-    margin: 10px 0;
+
+.website-links li {
+  list-style:none;
+  margin: 10px 0;
 }
-.website-links a{
-    color: white;
+
+.website-links a {
+  color: white;
 }
-.footer-bottom{
-    padding: 20px 0;
+
+.footer-bottom {
+  padding: 20px 0;
 }
-.copyright-text{
-    margin-left: 20px;
-    opacity: 0.5;
-    font-style: italic;
+
+.copyright-text {
+  margin-left: 20px;
+  opacity: 0.5;
+  font-style: italic;
 }
+
 @media screen and (max-width: 1120px){
   .aboutus-wrapper h2{
       font-size: 22px;
@@ -431,30 +366,10 @@ footer{
     .global_nav{
       display: block;
     }
-    .tajima-wrapper{
-        width: 95%;
-    }
-    .shinyu-wrapper{
-        width: 95%;
-    }
-    .yuzuki-wrapper{
+    .image-left-wrapper, .image-right-wrapper {
       width: 95%;
-  }
-  .sakai-wrapper{
-      width: 95%;
-  }
-    .eki-wrapper{
-        width: 95%;
     }
-    .kurokawa-wrapper{
-        width: 95%;
-    }
-    .kamoda-wrapper{
-      width: 95%;
-  }
-  .nojiri-wrapper{
-      width: 95%;
-  }
+
     .messages p{
       font-size: 13px;
     }
@@ -508,63 +423,22 @@ footer{
         font-size: 14px;
         line-height: 25px;
     }
-    .instagram-wrapper{
+    .instagram-wrapper {
       width: 300px;
       }
-    .instagram-link{
+    .instagram-link {
       width: 300px;
       height: 300px;
       }
-    .line{
+    .line {
         width: 50%;
     }
-    .tajima-wrapper{
+    .image-left-wrapper, .image-right-wrapper {
       flex-direction: column;
     }
-    .shinyu-wrapper{
-      flex-direction: column;
-    }
-    .yuzuki-wrapper{
-      flex-direction: column;
-    }
-    .sakai-wrapper{
-      flex-direction: column;
-    }
-    .eki-wrapper{
-      flex-direction: column;
-    }
-    .kurokawa-wrapper{
-      flex-direction: column;
-    }
-    .kamoda-wrapper{
-      flex-direction: column;
-    }
-    .nojiri-wrapper{
-      flex-direction: column;
-    }
-    .tajima-message p{
+
+    .leader-message p {
       padding-left: 0;
-    }
-    .shinyu-message p{
-      padding-right: 0;
-    }
-    .yuzuki-message p{
-      padding-left: 0;
-    }
-    .sakai-message p{
-      padding-right: 0;
-    }
-    .eki-message p{
-      padding-left: 0;
-    }
-    .kurokawa-message p{
-      padding-right: 0;
-    }
-    .kamoda-message p{
-      padding-left: 0;
-    }
-    .nojiri-message p{
-      padding-right: 0;
     }
 }
 
