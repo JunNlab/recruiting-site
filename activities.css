@@ -132,8 +132,8 @@ header a{
     background-color: white;
     margin: 0 auto;
     width: 900px;
-    padding-bottom: 20px;
     border-radius: 10px;
+    padding-bottom: 20px;
     height: 375px;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
 }
@@ -158,12 +158,81 @@ header a{
     position: absolute;
 }
 .text-seminar1{
-  margin-right: 70px;
+    margin: 10px 20px 10px 10px;
 }
 .text-seminar1 p{
     line-height: 25px;
 }
 .seminar2{
+    background-color: white;
+    margin: 0 auto;
+    width: 900px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    height: 375px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.seminar2 h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 25px 0 10px 0;
+    padding-top: 20px;
+}
+.seminar2-contents{
+    display: flex;
+    justify-content: center;
+}
+.img-seminar2{
+    position: relative;
+    width: 400px;
+    margin: 0 10px 0 20px;
+}
+.img-seminar2 img {
+    width: 100%;
+    position: absolute;
+}
+.text-seminar2{
+    margin: 10px 20px 10px 10px;
+}
+.text-seminar2 p{
+    line-height: 25px;
+}
+.seminar3{
+    background-color: white;
+    margin: 0 auto;
+    width: 900px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    height: 375px;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
+}
+.seminar3 h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 25px 0 10px 0;
+    padding-top: 20px;
+}
+.seminar3-contents{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.img-seminar3{
+    position: relative;
+    width: 400px;
+    margin-left: 70px;
+}
+.img-seminar3 img {
+    width: 100%;
+    position: absolute;
+}
+.text-seminar3{
+    margin: 30px 10px 30px 20px;
+}
+.text-seminar3 p{
+    line-height: 25px;
+}
+.seminar4{
   background-color: white;
   margin: 0 auto;
   width: 900px;
@@ -172,32 +241,32 @@ header a{
   height: 375px;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
 }
-.seminar2 h2{
+.seminar4 h2{
   font-size: 30px;
   text-align: center;
   margin: 25px 0 10px 0;
   padding-top: 20px;
 }
-.seminar2-contents{
+.seminar4-contents{
   display: flex;
   justify-content: center;
 }
-.img-seminar2{
+.img-seminar4{
   position: relative;
   width: 400px;
-  margin: 25px 10px 0 20px;
+  margin: 0 10px 0 20px;
 }
-.img-seminar2 img {
+.img-seminar4 img {
   width: 100%;
   position: absolute;
 }
-.text-seminar2{
+.text-seminar4{
   margin: 10px 20px 10px 10px;
 }
-.text-seminar2 p{
+.text-seminar4 p{
   line-height: 25px;
 }
-.seminar3{
+.seminar5{
   background-color: white;
   margin: 0 auto;
   width: 900px;
@@ -206,30 +275,30 @@ header a{
   height: 375px;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.5);
 }
-.seminar3 h2{
+.seminar5 h2{
   font-size: 30px;
   text-align: center;
   margin: 25px 0 10px 0;
   padding-top: 20px;
 }
-.seminar3-contents{
+.seminar5-contents{
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
 }
-.img-seminar3{
+.img-seminar5{
   position: relative;
   width: 400px;
   margin: 0 20px 0 10px;
 }
-.img-seminar3 img {
+.img-seminar5 img {
   width: 100%;
   position: absolute;
 }
-.text-seminar3{
+.text-seminar5{
   margin: 30px 10px 30px 20px;
 }
-.text-seminar3 p{
+.text-seminar5 p{
   line-height: 25px;
 }
 footer{
@@ -270,7 +339,7 @@ footer{
 @media screen and (max-width: 960px){
   .seminar1{
     width: 450px;
-    height: 650px;
+    height: 625px;
   }
   .seminar1-contents{
     flex-direction: column;
@@ -297,7 +366,7 @@ footer{
   }
   .seminar3{
     width: 450px;
-    height: 650px;
+    height: 625px;
   }
   .seminar3-contents{
     flex-direction: column;
@@ -306,6 +375,34 @@ footer{
     margin: 0 auto;
   }
   .text-seminar3{
+    margin-top: 275px;
+    margin-left: 20px;
+  }
+  .seminar4{
+    width: 450px;
+    height: 625px;
+  }
+  .seminar4-contents{
+    flex-direction: column;
+  }
+  .img-seminar4{
+    margin: 0 auto;
+  }
+  .text-seminar4{
+    margin-top: 275px;
+    margin-left: 20px;
+  }
+  .seminar5{
+    width: 450px;
+    height: 625px;
+  }
+  .seminar5-contents{
+    flex-direction: column;
+  }
+  .img-seminar5{
+    margin: 0 auto;
+  }
+  .text-seminar5{
     margin-top: 275px;
     margin-left: 20px;
   }
@@ -384,6 +481,40 @@ footer{
     margin-top: 210px;
   }
   .text-seminar3 p{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .seminar4{
+    width: 350px;
+    height: 510px;
+  }
+  .seminar4 h2{
+    font-size: 25px;
+  }
+  .img-seminar4{
+    width: 300px;
+  }
+  .text-seminar4{
+    margin-top: 210px;
+  }
+  .text-seminar4 p{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .seminar5{
+    width: 350px;
+    height: 510px;
+  }
+  .seminar5 h2{
+    font-size: 25px;
+  }
+  .img-seminar5{
+    width: 300px;
+  }
+  .text-seminar5{
+    margin-top: 210px;
+  }
+  .text-seminar5 p{
     font-size: 12px;
     line-height: 20px;
   }
