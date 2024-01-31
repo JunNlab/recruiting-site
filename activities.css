@@ -286,10 +286,19 @@ header a{
   justify-content: center;
   flex-direction: row-reverse;
 }
-.img-seminar5{
+/* .img-seminar5{
   position: relative;
   width: 400px;
   margin: 0 20px 0 10px;
+}
+.img-seminar5 img {
+  width: 100%;
+  position: absolute;
+} */
+.img-seminar5{
+  position: relative;
+  width: 400px;
+  margin-left: 70px;
 }
 .img-seminar5 img {
   width: 100%;
