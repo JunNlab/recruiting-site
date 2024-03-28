@@ -310,6 +310,51 @@ header a{
 .text-seminar5 p{
   line-height: 25px;
 }
+.img-seminar6{
+  position: relative;
+  width: 400px;
+  margin-left: 70px;
+}
+.img-seminar6 img {
+  width: 100%;
+  position: absolute;
+}
+.img-seminar7{
+  position: relative;
+  width: 400px;
+  margin-left: 70px;
+}
+.img-seminar7 img {
+  width: 100%;
+  position: absolute;
+}
+.img-seminar8{
+  position: relative;
+  width: 400px;
+  margin-left: 70px;
+}
+.img-seminar8 img {
+  width: 100%;
+  position: absolute;
+}
+.img-seminar9{
+  position: relative;
+  width: 400px;
+  margin-left: 70px;
+}
+.img-seminar9 img {
+  width: 100%;
+  position: absolute;
+}
+.img-seminar10{
+  position: relative;
+  width: 400px;
+  margin-left: 70px;
+}
+.img-seminar10 img {
+  width: 100%;
+  position: absolute;
+}
 footer{
     background-color:rgb(30, 50, 70);
     color: white;
@@ -414,6 +459,21 @@ footer{
   .text-seminar5{
     margin-top: 275px;
     margin-left: 20px;
+  }
+  .img-seminar6{
+    margin: 0 auto;
+  }
+  .img-seminar7{
+    margin: 0 auto;
+  }
+  .img-seminar8{
+    margin: 0 auto;
+  }
+  .img-seminar9{
+    margin: 0 auto;
+  }
+  .img-seminar10{
+    margin: 0 auto;
   }
 }
 @media (max-width: 740px){
@@ -526,6 +586,21 @@ footer{
   .text-seminar5 p{
     font-size: 12px;
     line-height: 20px;
+  }
+  .img-seminar6{
+    width: 300px;
+  }
+  .img-seminar7{
+    width: 300px;
+  }
+  .img-seminar8{
+    width: 300px;
+  }
+  .img-seminar9{
+    width: 300px;
+  }
+  .img-seminar10{
+    width: 300px;
   }
   .website-links li{
     font-size: 13px;
